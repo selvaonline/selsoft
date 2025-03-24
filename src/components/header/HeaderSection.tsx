@@ -75,19 +75,20 @@ const HeaderSection = ({ innerHeader }: Props) => {
     >
       <div className={`container ${innerHeader ? "" : "rv-1-container"}`}>
         <div className="row align-items-center">
-          <div className="col-lg-3 col-5 col-xxs-6">
+          <div className="col-lg-2 col-5 col-xxs-6">
             <div className="rv-1-logo">
               <Link href="/">
                 <img
-                  src="/assets/img/logo-main.png"
-                  alt="logo"
+                  src="/assets/img/selsoft-logo.svg"
+                  alt="Selsoft"
                   className="rv-1-logo"
+                  style={{ maxHeight: "35px", width: "auto" }}
                 />
               </Link>
             </div>
           </div>
 
-          <div className="col-lg-6 order-lg-1 order-2">
+          <div className="col-lg-7 order-lg-1 order-2">
             <div
               className={`rv-1-header-nav__sidebar ${
                 isSidebarOpen ? "active" : ""
@@ -96,7 +97,7 @@ const HeaderSection = ({ innerHeader }: Props) => {
             >
               <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
                 <Link href="/" className="logo-container">
-                  <img src="/assets/img/logo-1.png" alt="logo" />
+                  <img src="/assets/img/selsoft-logo.svg" alt="Selsoft" />
                 </Link>
                 <button
                   className="rv-3-def-btn rv-1-header-mobile-menu-btn sidebar-close-btn"
@@ -120,12 +121,9 @@ const HeaderSection = ({ innerHeader }: Props) => {
             {innerHeader ? (
               <div className="d-flex justify-content-end">
                 <div className="rv-inner-header-right-btns">
-                  <Link href="/login">
-                    <i className="fa-regular fa-user"></i>Login
+                  <Link href="/contact" className="d-sm-inline-block d-none">
+                    Contact Us
                   </Link>
-                  <a href="#" className="d-sm-inline-block d-none">
-                    let's talk
-                  </a>
                 </div>
                 <button
                   className="rv-1-header-mobile-menu-btn rv-3-def-btn rv-inner-mobile-menu-btn d-lg-none d-inline-block"

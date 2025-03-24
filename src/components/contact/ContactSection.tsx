@@ -30,10 +30,7 @@ const ContactSection = ({ innerPage }: Props) => {
               <div className="rv-inner-contact-info__bottom">
                 <ul className="rv-5-footer-timings">
                   <li>
-                    <a href="tel:0123456789">0123 456 789</a>
-                  </li>
-                  <li>
-                    <a href="tel:9876543210">9876 543 210</a>
+                    <a href="tel:9724743071">(972) 474-3071</a>
                   </li>
                 </ul>
               </div>
@@ -51,10 +48,7 @@ const ContactSection = ({ innerPage }: Props) => {
               <div className="rv-inner-contact-info__bottom">
                 <ul className="rv-5-footer-timings">
                   <li>
-                    <a href="mailto:info@revel.com">info@revel.com</a>
-                  </li>
-                  <li>
-                    <a href="mailto:test@revel.com">test@revel.com</a>
+                    <a href="mailto:info@selsoftinc.com">info@selsoftinc.com</a>
                   </li>
                 </ul>
               </div>
@@ -63,23 +57,18 @@ const ContactSection = ({ innerPage }: Props) => {
             <div className="rv-inner-contact-info">
               <div className="rv-inner-contact-info__heading">
                 <div className="rv-inner-contact-info__icon">
-                  <i className="fa-regular fa-clock"></i>
+                  <i className="fa-regular fa-location-dot"></i>
                 </div>
 
                 <h5 className="rv-inner-contact-info__title">
-                  Hours of Operation
+                  Headquarters
                 </h5>
               </div>
 
               <div className="rv-inner-contact-info__bottom">
                 <ul className="rv-5-footer-timings">
                   <li>
-                    <span className="key">Monday - Friday : </span>
-                    <span className="value">08:30 am - 10:00 pm</span>
-                  </li>
-                  <li>
-                    <span className="key">Saturday - Sunday : </span>
-                    <span className="value">10:30 am - 08:00 pm</span>
+                    <span>303, S Jupiter, Suite 110, Allen, TX 75002, USA</span>
                   </li>
                 </ul>
               </div>
@@ -98,7 +87,9 @@ const ContactSection = ({ innerPage }: Props) => {
                 innerPage ? "rv-inner-contact__txt" : ""
               }`}
             >
-              <h3 className="rv-2-contact-form-title">Let's Connect.</h3>
+              <h3 className="rv-2-contact-form-title">Get in Touch with Us</h3>
+              
+              <p className="mb-4">Ready to transform your business with cutting-edge solutions? Fill out the form below and our experts will get back to you shortly. We're here to answer your questions and help with your software development needs.</p>
 
               <ContactForm innerPage={innerPage ? true : false} />
             </div>
@@ -106,10 +97,11 @@ const ContactSection = ({ innerPage }: Props) => {
 
           <DivAnimateXAxis className="col-xxl-4 col-lg-5" position={60}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.83187902115!2d90.33728818728464!3d23.780975728108746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1697280378529!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.9456613965823!2d-96.67483372426308!3d33.10272827352006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c177ba76022a9%3A0x82baa49d8d2dfca4!2s303%20S%20Jupiter%20Rd%20%23110%2C%20Allen%2C%20TX%2075002%2C%20USA!5e0!3m2!1sen!2sin!4v1716848203125!5m2!1sen!2sin"
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              style={{ height: "400px", width: "100%", border: 0 }}
             ></iframe>
           </DivAnimateXAxis>
         </div>

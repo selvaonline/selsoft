@@ -14,12 +14,18 @@
 }
 
 .rv-1-header {
-    padding: 15px 0;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+    
+    &.fixed {
+        padding: 3px 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
 
     &__nav {
         >ul {
             display: flex;
-            gap: calc(50px - 15px);
+            gap: 20px;
 
             @include lg {
                 gap: 12px;
@@ -31,7 +37,7 @@
 
             >li {
                 position: relative;
-                line-height: 50px;
+                line-height: 32px;
 
                 @include md {
                     line-height: normal;
@@ -70,6 +76,7 @@
                 position: relative;
                 padding-right: 15px;
                 font-weight: 500;
+                font-size: 14px;
 
                 &:hover {
                     color: var(--orange);
@@ -210,12 +217,13 @@
     &-mobile-menu-btn {
         background-color: var(--orange);
         border-color: var(--orange);
-        border-radius: 14px;
         border-radius: 10px;
         padding: 0;
         text-align: center;
         aspect-ratio: 1;
-        font-size: 20px;
+        height: 32px;
+        width: 32px;
+        font-size: 16px;
 
         @include xxs {
             height: 40px;
@@ -1723,6 +1731,7 @@
 .rv-inner-header {
     box-shadow: 0px 1px 2px 0px rgba(11, 23, 40, 0.10);
     position: relative;
+    padding: 5px 0;
 
     &__nav {
         >ul a {
@@ -1746,8 +1755,8 @@
         }
 
         a {
-            height: 45px;
-            line-height: 45px;
+            height: 32px;
+            line-height: 32px;
             font-size: 15px;
             font-weight: 600;
             color: var(--black);
@@ -1796,6 +1805,7 @@
 .rv-inner-mobile-menu-btn {
     background-color: #794aff;
     border-color: #794aff;
+    height: 32px;
 }
 
 // INDEX-15 HEADER

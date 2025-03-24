@@ -4,8 +4,11 @@ import NavSection from "../navigation/NavSection";
 import Link from "next/link";
 import { useAppDispatch } from "@/redux/hooks";
 import { toggleSearchModalOpen } from "@/redux/features/searchModalSlice";
+import { usePathname } from "next/navigation";
 
 const HeaderSection7 = () => {
+  const pathname = usePathname();
+  const isContactPage = pathname === "/contact";
   const [isHeaderFixed, setIsHeaderFixed] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const sidebarRef = useRef<HTMLDivElement>(null);
@@ -118,7 +121,11 @@ const HeaderSection7 = () => {
             <div className="col-md-3 col-4 col-xxs-6">
               <div className="rv-8-header__logo">
                 <Link href="/">
-                  <img src="assets/img/logo-main-white.png" alt="Logo" />
+                  <img 
+                    src="/assets/img/logo-main.png" 
+                    alt="Selsoft Logo" 
+                    style={{ maxHeight: "40px", width: "auto" }}
+                  />
                 </Link>
               </div>
             </div>
@@ -132,7 +139,11 @@ const HeaderSection7 = () => {
               >
                 <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
                   <Link href="/" className="logo-container">
-                    <img src="assets/img/rv-14-logo.png" alt="logo" />
+                    <img 
+                      src="/assets/img/logo-main.png" 
+                      alt="Selsoft Logo" 
+                      style={{ maxHeight: "40px", width: "auto" }} 
+                    />
                   </Link>
                   <button
                     className="rv-3-def-btn rv-1-header-mobile-menu-btn rv-14-mobile-menu-btn sidebar-close-btn"

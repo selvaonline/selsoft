@@ -57,33 +57,8 @@ const NavSection = ({ style, logo }: Props) => {
           <Navlink href="/about">About</Navlink>
         </li>
 
-        <li className={dropdown.pages ? "rv-dropdown-active" : ""}>
-          <a
-            className="dropdown-btn"
-            role="button"
-            onClick={() => handleToggleDropdown("pages")}
-          >
-            Pages
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Navlink href="/projects">Projects</Navlink>
-            </li>
-            <li>
-              <Navlink href="/projects/ecological-harmony-project">
-                Project Details
-              </Navlink>
-            </li>
-            <li>
-              <Navlink href="/team">Team Members</Navlink>
-            </li>
-            <li>
-              <Navlink href="/login">Login</Navlink>
-            </li>
-            <li>
-              <Navlink href="/register">Register</Navlink>
-            </li>
-          </ul>
+        <li>
+          <Navlink href="/industries">Industries</Navlink>
         </li>
         {logo && (
           <li className="d-none d-lg-block">
@@ -102,12 +77,13 @@ const NavSection = ({ style, logo }: Props) => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Navlink href="/services">Services</Navlink>
+              <Navlink href="/services/ai-solutions">AI Solutions</Navlink>
             </li>
             <li>
-              <Navlink href="/services/digital-marketing">
-                Service Details
-              </Navlink>
+              <Navlink href="/services/data-engineering">Data Engineering</Navlink>
+            </li>
+            <li>
+              <Navlink href="/services/cloud-services">Cloud Services</Navlink>
             </li>
           </ul>
         </li>

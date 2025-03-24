@@ -20,21 +20,22 @@ const FooterSection4 = () => {
                   />
                 </Link>
                 <p className="rv-1-footer__about-txt">
-                  Morbi pharetra, eros sed euismod pellentesque, nulla risus
-                  lobortis.
+                  Headquarters:<br />
+                  303, S Jupiter, Suite 110<br />
+                  Allen, TX 75002, USA.<br />
+                  Phone: 972-474-3071<br />
+                  Fax: 469-519-0138<br />
+                  Email: info@selsoftinc.com
                 </p>
                 <div className="rv-1-socials rv-inner-socials">
-                  <Link href="#">
-                    <i className="fa-brands fa-twitter"></i>
+                  <Link href="https://x.com/Selsoftx" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-x-twitter"></i>
                   </Link>
-                  <Link href="#">
+                  <Link href="https://www.facebook.com/profile.php?id=100066330325206#" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-facebook-f"></i>
                   </Link>
-                  <Link href="#">
+                  <Link href="https://www.linkedin.com/company/selsoft-inc-/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-linkedin-in"></i>
-                  </Link>
-                  <Link href="#">
-                    <i className="fa-brands fa-pinterest-p"></i>
                   </Link>
                 </div>
               </div>
@@ -45,19 +46,19 @@ const FooterSection4 = () => {
                 <h5 className="rv-1-footer-widget__title">Useful Links</h5>
                 <ul className="rv-8-footer-widget__links">
                   <li>
-                    <Link href="#">About Us</Link>
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="#">Latest Work</Link>
+                    <Link href="/projects">Our Projects</Link>
                   </li>
                   <li>
-                    <Link href="#">Team Member</Link>
+                    <Link href="/team">Our Team</Link>
                   </li>
                   <li>
-                    <Link href="#">Latest Blog</Link>
+                    <Link href="/blog">Blog</Link>
                   </li>
                   <li>
-                    <Link href="#">Contact Us</Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -68,19 +69,16 @@ const FooterSection4 = () => {
                 <h5 className="rv-1-footer-widget__title">Our Services</h5>
                 <ul className="rv-8-footer-widget__links">
                   <li>
-                    <Link href="#">SEO Optimization</Link>
+                    <Link href="/services/ai-solutions">AI Solutions</Link>
                   </li>
                   <li>
-                    <Link href="#">Content Marketing</Link>
+                    <Link href="/services/data-engineering">Data Engineering</Link>
                   </li>
                   <li>
-                    <Link href="#">Data Analysis</Link>
+                    <Link href="/services/cloud-services">Cloud Services</Link>
                   </li>
                   <li>
-                    <Link href="#">Digital Marketing</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Web Analytics</Link>
+                    <Link href="/services">All Services</Link>
                   </li>
                 </ul>
               </div>
@@ -99,7 +97,7 @@ const FooterSection4 = () => {
           <div className="row gy-3 align-items-center">
             <DivAnimateXAxis position={-60} className="col-md-8">
               <p className="rv-2-copyright rv-1-copyright mb-0 text-center text-md-start">
-                &copy; {new Date().getFullYear()} Selsoft All Rights Reserved
+                &copy; {new Date().getFullYear()} Selsoft, Inc. All Rights Reserved.
               </p>
             </DivAnimateXAxis>
             <DivAnimateXAxis
