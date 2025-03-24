@@ -9,7 +9,6 @@ import VideoModal from "@/components/modal/VideoModal";
 import CaseStudySection from "@/components/project/CaseStudySection";
 import ServiceSection6 from "@/components/service/ServiceSection6";
 import StatSection from "@/components/stats/StatSection";
-import TeamSection6 from "@/components/team/TeamSection6";
 import TestimonialSection5 from "@/components/testimonial/TestimonialSection5";
 import VideoSection7 from "@/components/video/VideoSection7";
 import { Metadata } from "next";
@@ -28,7 +27,6 @@ export default function Home() {
       <StatSection />
       <CtaSection />
       <CaseStudySection />
-      <TeamSection6 />
       <TestimonialSection5 />
       <VideoSection7 />
       <BlogSection6 />
