@@ -102,10 +102,10 @@ export const selectFilteredShopSidebarData = createSelector(
     const filteredShopData = shopData.filter((item) => {
       const isInSelectedCategories =
         selectedCategories.length === 0 ||
-        selectedCategories.includes(item.category);
+        (item.category && selectedCategories.includes(item.category));
       const isInSelectedColors =
         selectedColorFilters.length === 0 ||
-        selectedColorFilters.includes(item.color);
+        (item.color && selectedColorFilters.includes(item.color));
       const isWithinPriceRange =
         item.price >= minPrice && item.price <= maxPrice;
 
@@ -120,10 +120,10 @@ export const selectFilteredShopSidebarData = createSelector(
       switch (sorting) {
         case "popularity":
           // Placeholder logic for popularity
-          return b.popularity - a.popularity;
+          return (b.popularity || 0) - (a.popularity || 0);
         case "rating":
           // Placeholder logic for rating
-          return b.rating - a.rating;
+          return (b.rating || 0) - (a.rating || 0);
         case "price":
           // Placeholder logic for price: low to high
           return a.price - b.price;

@@ -60,10 +60,10 @@ export const selectFilteredShopData = createSelector(
       switch (sorting) {
         case "popularity":
           // Placeholder logic for popularity
-          return b.popularity - a.popularity;
+          return (b.popularity || 0) - (a.popularity || 0);
         case "rating":
           // Placeholder logic for rating
-          return b.rating - a.rating;
+          return (b.rating || 0) - (a.rating || 0);
         case "price":
           // Placeholder logic for price: low to high
           return a.price - b.price;

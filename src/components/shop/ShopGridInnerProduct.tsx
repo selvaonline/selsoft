@@ -1,7 +1,7 @@
 import React from "react";
 import ShopGridCard from "./ShopGridCard";
 import ShopListCard from "./ShopListCard";
-import { ShopItem } from "@/types";
+import { ShopItem } from "../../types";
 type Props = {
   currentItems: ShopItem[];
   isGridView: boolean;

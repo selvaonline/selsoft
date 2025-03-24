@@ -60,9 +60,9 @@ const ShopSidebarMain = () => {
   // Category Filter
   const selectedCategories = shopState.selectedCategories || [];
 
-  // Extract unique categories from the shop data
+  // Extract unique categories from the shop data, filtering out undefined values
   const uniqueCategories = Array.from(
-    new Set(shopState.shopData.map((item) => item.category))
+    new Set(shopState.shopData.map((item) => item.category).filter((category): category is string => !!category))
   );
 
   const handleCategoryClick = (category: string) => {
@@ -86,9 +86,9 @@ const ShopSidebarMain = () => {
 
   const selectedColors = shopState.selectedColorFilters || [];
 
-  // Extract unique Colors from the shop data
+  // Extract unique Colors from the shop data, filtering out undefined values
   const uniqueColors = Array.from(
-    new Set(shopState.shopData.map((item) => item.color))
+    new Set(shopState.shopData.map((item) => item.color).filter((color): color is string => !!color))
   );
 
   const handleColorClick = (color: string) => {
@@ -107,10 +107,12 @@ const ShopSidebarMain = () => {
   };
   const colorCounts: Record<string, number> = {};
   shop.shopData.forEach((item) => {
-    if (colorCounts[item.color]) {
-      colorCounts[item.color]++;
-    } else {
-      colorCounts[item.color] = 1;
+    if (item.color) { // Check if color exists
+      if (colorCounts[item.color]) {
+        colorCounts[item.color]++;
+      } else {
+        colorCounts[item.color] = 1;
+      }
     }
   });
 

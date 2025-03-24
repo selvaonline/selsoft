@@ -1,7 +1,7 @@
 import { addToCart } from "@/redux/features/cartSlice";
 import { removeFromWishlist } from "@/redux/features/wishlistSlice";
 import { useAppDispatch } from "@/redux/hooks";
-import { ShopItem } from "@/types";
+import { ShopItem } from "../../types";
 import Link from "next/link";
 import React from "react";
 import { toast } from "react-toastify";
