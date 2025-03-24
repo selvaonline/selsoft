@@ -99,8 +99,7 @@ const FooterSection4 = () => {
           <div className="row gy-3 align-items-center">
             <DivAnimateXAxis position={-60} className="col-md-8">
               <p className="rv-2-copyright rv-1-copyright mb-0 text-center text-md-start">
-                &copy; {new Date().getFullYear()} Codebasket All Rights Reserved
-                by site
+                &copy; {new Date().getFullYear()} Selsoft All Rights Reserved
               </p>
             </DivAnimateXAxis>
             <DivAnimateXAxis

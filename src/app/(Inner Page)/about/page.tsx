@@ -7,8 +7,8 @@ import CtaSection from "@/components/cta/CtaSection";
 import InnerLayout from "@/components/layout/InnerLayout";
 
 export const metadata: Metadata = {
-  title: "Corporata - About Page",
-  description: "Developed by Azizur Rahman",
+  title: "Selsoft - About Us",
+  description: "Learn about Selsoft's AI, Data, and Cloud expertise",
 };
 export default function Home() {
   return (

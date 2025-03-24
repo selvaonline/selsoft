@@ -18,26 +18,26 @@ const AboutSection6 = () => {
           <DivAnimateXAxis className="col-lg-6">
             <div className="rv-6-about__txt rv-14-about__txt">
               <h6 className="rv-14-section__sub-title rv-text-anime">
-                Our Introduction
+                About Us
               </h6>
               <h2 className="rv-7-section__title rv-text-anime">
-                High-Velocity Route To Commercial Achievement.
+                Innovative Technology, Unmatched Expertise
               </h2>
               <p className="rv-6-about__descr rv-text-anime">
-                Fusce egestas viverra libero eu elementum. Maecenas sit amet
-                lorem nec ero ullamcorper Vivamus finibus lacinia erat,
-                tristique ligula odio maximus ultricies fermentum egestas.
+                Selsoft is at the forefront of Artificial Intelligence, Data Engineering, and Cloud computing. 
+                With years of experience in helping businesses across industries, we combine deep technical 
+                knowledge with strategic insights to bring transformative solutions that drive growth.
               </p>
 
               <ul
                 className="rv-3-about__features rv-14-about__features"
                 data-aos="fade-up"
               >
-                <li>Research & strategic planning</li>
-                <li>Communications audit</li>
-                <li>Marketing communications</li>
-                <li>Competitive analysis</li>
-                <li>Qualitative & quantitative research</li>
+                <li>AI Development & Deep Learning</li>
+                <li>Process Automation with AI</li>
+                <li>Data Engineering & Analytics</li>
+                <li>Cloud Solutions: AWS, Azure, GCP</li>
+                <li>IoT Solutions & Face Recognition</li>
               </ul>
 
               <div

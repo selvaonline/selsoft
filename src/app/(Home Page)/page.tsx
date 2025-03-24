@@ -15,8 +15,8 @@ import VideoSection7 from "@/components/video/VideoSection7";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Homepage 1",
-  description: "Developed by Azizur Rahman",
+  title: "Selsoft - AI, Data & Cloud Solutions",
+  description: "Driving the future of technology with innovations in AI, Data, and Cloud solutions",
 };
 export default function Home() {
   return (

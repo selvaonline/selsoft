@@ -5,8 +5,8 @@ import ServiceSection2 from "@/components/service/ServiceSection2";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Services Page",
-  description: "Developed by Azizur Rahman",
+  title: "Selsoft - Our Services",
+  description: "Explore Selsoft's AI, Data Engineering, and Cloud Solutions",
 };
 export default function Home() {
   return (

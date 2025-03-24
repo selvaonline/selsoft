@@ -215,8 +215,7 @@ const FooterSection5 = ({
           <div className="row align-items-center gy-3">
             <div className="col-md-7">
               <p className="rv-2-copyright rv-1-copyright mb-0 text-center text-md-start">
-                &copy; {new Date().getFullYear()} Codebasket All Rights Reserved
-                by site
+                &copy; {new Date().getFullYear()} Selsoft All Rights Reserved
               </p>
             </div>
 

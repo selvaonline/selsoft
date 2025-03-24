@@ -11,13 +11,13 @@ const ServiceSection6 = () => {
         <div className="rv-3-section-heading rv-14-section__heading">
           <div className="rv-3-section-heading__left">
             <h6 className="rv-14-section__sub-title rv-text-anime">
-              Business Services
+              Our Services
             </h6>
             <h2 className="rv-7-section__title rv-text-anime">
-              Specialized Domains Where Our Great Team Shines
+              Comprehensive AI, Data, and Cloud Solutions
             </h2>
             <p className="rv-14-section__descr rv-text-anime">
-              habitats plateau dictums Quisqueya cursus, dictum orca pharetra
+              We empower businesses to unlock the full potential of their data and automate operations with scalable, future-ready solutions
             </p>
           </div>
 

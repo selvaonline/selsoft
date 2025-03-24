@@ -125,7 +125,7 @@ const FooterSection8 = () => {
           <div className="row gy-4 align-items-center">
             <div className="col-md-7">
               <p className="rv-2-copyright rv-1-copyright mb-0 text-center text-md-start">
-                &copy; 2023 Codebasket All Rights Reserved by site
+                &copy; {new Date().getFullYear()} Selsoft All Rights Reserved
               </p>
             </div>
             <div className="col-md-5">

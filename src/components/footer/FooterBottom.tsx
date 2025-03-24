@@ -7,8 +7,8 @@ const FooterBottom = () => {
       <div className="row gy-3">
         <div className="col-md-8">
           <p className="rv-1-copyright m-0 text-center text-md-start">
-            &copy; {new Date().getFullYear()} Revel All Rights Reserved by
-            CodeBasket
+            &copy; {new Date().getFullYear()} Selsoft All Rights Reserved by
+            Selva Software Solutions
           </p>
         </div>
 

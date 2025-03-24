@@ -725,37 +725,37 @@ const galleryData2 = [
 const serviceData2 = [
   {
     id: 1,
-    title: "Digital Marketing",
+    title: "AI Solutions",
     description:
-      "Suspendisse fermentu Suspendisse herderite est lectors valuate tempus null ullamcorper quis.",
-    slug: "digital-marketing",
+      "Advanced artificial intelligence solutions including machine learning, computer vision, and NLP to help businesses automate processes and gain insights.",
+    slug: "ai-solutions",
     icon: Icon,
     img: "/assets/img/service-details-1.jpg",
   },
   {
     id: 2,
-    title: "Web Solution",
+    title: "Data Solutions",
     description:
-      "Suspendisse fermentu Suspendisse herderite est lectors valuate tempus null ullamcorper quis.",
-    slug: "web-solution",
+      "Comprehensive data engineering, analytics, and visualization services to help businesses transform raw data into actionable insights.",
+    slug: "data-solutions",
     icon: Icon2,
     img: "/assets/img/service-details-2.jpg",
   },
   {
     id: 3,
-    title: "Market Research",
+    title: "Cloud Solutions",
     description:
-      "Suspendisse fermentu Suspendisse herderite est lectors valuate tempus null ullamcorper quis.",
-    slug: "market-research",
+      "End-to-end cloud services across AWS, Azure, and GCP platforms for scalable, secure and cost-effective infrastructure and applications.",
+    slug: "cloud-solutions",
     icon: Icon3,
     img: "/assets/img/service-details-3.jpg",
   },
   {
     id: 4,
-    title: "Creative Process",
+    title: "IoT Solutions",
     description:
-      "Suspendisse fermentu Suspendisse herderite est lectors valuate tempus null ullamcorper quis.",
-    slug: "creative-process",
+      "Connected device solutions with real-time monitoring, predictive maintenance, and data processing capabilities for operational intelligence.",
+    slug: "iot-solutions",
     icon: Icon4,
     img: "/assets/img/service-details-4.jpg",
   },

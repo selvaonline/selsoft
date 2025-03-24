@@ -12,13 +12,13 @@ const BannerSection8 = () => {
           <div className="col-xxl-9 col-lg-10">
             <div className="rv-11-banner__txt">
               <h6 className="rv-14-section__sub-title rv-14-banner__sub-title rv-text-anime">
-                Specialized Direction
+                Welcome to Selsoft
               </h6>
               <h1 className="rv-14-banner__title rv-text-anime">
-                Well-Versed Financial Professionals.
+                Driving the future of technology with innovations in AI, Data, and Cloud solutions
               </h1>
               <a href="#" className="rv-10-def-btn rv-14-def-btn">
-                Schedule Consultation{" "}
+                Learn More{" "}
                 <i className="fa-regular fa-arrow-up-right"></i>
               </a>
             </div>

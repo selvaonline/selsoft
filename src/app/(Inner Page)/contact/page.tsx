@@ -4,8 +4,8 @@ import InnerLayout from "@/components/layout/InnerLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Contact Page",
-  description: "Developed by Azizur Rahman",
+  title: "Selsoft - Contact Us",
+  description: "Get in touch with Selsoft's AI, Data, and Cloud experts",
 };
 export default function Home() {
   return (
