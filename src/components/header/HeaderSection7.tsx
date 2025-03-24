@@ -159,9 +159,9 @@ const HeaderSection7 = () => {
 
             <div className="col-lg-3 col-md-9 col-8 col-xxs-6 text-end order-1">
               <div className="rv-7-header-bottom-right rv-14-header-bottom-right">
-                <a href="#" className="rv-3-def-btn d-xxs-none">
+                <Link href="/contact" className="rv-3-def-btn d-xxs-none">
                   Get in Touch
-                </a>
+                </Link>
                 <div className="rv-7-header-bottom-right__actions rv-14-header-bottom-right__actions">
                   <button
                     className="rv-14-search-btn rv-search-modal-open-btn"

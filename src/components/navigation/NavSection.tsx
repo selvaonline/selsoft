@@ -31,26 +31,8 @@ const NavSection = ({ style, logo }: Props) => {
   return (
     <div className={style}>
       <ul className="justify-content-center">
-        <li className={dropdown.home ? "rv-dropdown-active" : ""}>
-          <a
-            className="dropdown-btn"
-            role="button"
-            onClick={() => handleToggleDropdown("home")}
-          >
-            Home
-          </a>
-
-          <ul className="sub-menu rv-mega-menu">
-            <li>
-              <Navlink href="/">Business Promotion</Navlink>
-            </li>
-            <li>
-              <Navlink href="/home-2">Business Consulting</Navlink>
-            </li>
-            <li>
-              <Navlink href="/home-3">Event</Navlink>
-            </li>
-          </ul>
+        <li>
+          <Navlink href="/">Home</Navlink>
         </li>
 
         <li>
@@ -88,24 +70,8 @@ const NavSection = ({ style, logo }: Props) => {
           </ul>
         </li>
 
-        <li className={dropdown.blog ? "rv-dropdown-active" : ""}>
-          <a
-            className="dropdown-btn"
-            role="button"
-            onClick={() => handleToggleDropdown("blog")}
-          >
-            Blog
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Navlink href="/blog">Blog</Navlink>
-            </li>
-            <li>
-              <Navlink href="/blog/entrepreneur-productivity">
-                Blog Details
-              </Navlink>
-            </li>
-          </ul>
+        <li>
+          <Navlink href="/blog">Blog</Navlink>
         </li>
 
         <li>
