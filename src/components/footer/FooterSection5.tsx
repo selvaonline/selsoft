@@ -38,8 +38,8 @@ const FooterSection5 = ({
                     </span>
                     <div className="rv-5-about__call-txt">
                       <h6>Our Phone</h6>
-                      <a href="tel:123654564388" className="">
-                        (123) 654 - 5643 88
+                      <a href="tel:19724743071" className="">
+                        (972) 474-3071
                       </a>
                     </div>
                   </div>
@@ -55,8 +55,8 @@ const FooterSection5 = ({
                     </span>
                     <div className="rv-5-about__call-txt">
                       <h6>Our Email</h6>
-                      <a href="tel:123654564388" className="">
-                        example@gmail.com
+                      <a href="tel:19724743071" className="">
+                      info@selsoftinc.com
                       </a>
                     </div>
                   </div>
@@ -72,8 +72,8 @@ const FooterSection5 = ({
                     </span>
                     <div className="rv-5-about__call-txt">
                       <h6>Our Address</h6>
-                      <a href="tel:123654564388" className="">
-                        Q4HP+QP New York, USA
+                      <a href="tel:19724743071" className="">
+                        Allen,TX,USA.
                       </a>
                     </div>
                   </div>

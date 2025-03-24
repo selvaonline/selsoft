@@ -74,18 +74,18 @@ const FooterSection = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="rv-1-footer-widget">
                 <h5 className="rv-1-footer-widget__title">Contact Us</h5>
-                <ul className="rv-1-footer-widget__infos">
+<ul className="rv-1-footer-widget__infos">
                   <li>
-                    <img src="assets/img/rv-1-icon-6.png" alt="icon" /> 24th St,
-                    New York, NY
+                    <img src="assets/img/rv-1-icon-6.png" alt="icon" /> 303, S Jupiter, Suite 110, Allen, TX 75002, USA.
                   </li>
                   <li>
-                    <img src="assets/img/rv-1-icon-7.png" alt="icon" />{" "}
-                    <a href="tel:+12365858988">+123 658 589 88</a>
+                    <img src="assets/img/rv-1-icon-7.png" alt="icon" /> <a href="tel:+19724743071">972-474-3071</a>
                   </li>
                   <li>
-                    <img src="assets/img/rv-1-icon-8.png" alt="icon" />{" "}
-                    <a href="mailto:info@gmail.com">info@gmail.com</a>
+                    <img src="assets/img/rv-1-icon-8.png" alt="icon" /> <a href="mailto:info@selsoftinc.com">info@selsoftinc.com</a>
+                  </li>
+                  <li>
+                    <img src="assets/img/rv-1-icon-9.png" alt="icon" /> Fax: 469-519-0138
                   </li>
                 </ul>
               </div>

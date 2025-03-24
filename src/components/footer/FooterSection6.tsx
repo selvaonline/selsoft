@@ -81,8 +81,7 @@ const FooterSection6 = () => {
                     <h5 className="rv-1-footer-widget__title">Contact Us</h5>
                     <ul className="rv-1-footer-widget__infos">
                       <li>
-                        <img src="assets/img/rv-1-icon-6.png" alt="icon" /> 24th
-                        St, New York, NY
+                        <img src="assets/img/rv-1-icon-6.png" alt="icon" /> Allen,TX,USA
                       </li>
                       <li>
                         <img src="assets/img/rv-1-icon-7.png" alt="icon" />{" "}

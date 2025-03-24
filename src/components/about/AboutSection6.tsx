@@ -52,8 +52,8 @@ const AboutSection6 = () => {
                     <i className="fa-solid fa-phone"></i>
                   </span>
                   <div className="rv-5-about__call-txt">
-                    <a href="tel:123654564388" className="">
-                      (123) 654 - 5643 88
+                    <a href="tel:19724743071" className="">
+                        972-474-3071
                     </a>
                   </div>
                 </div>
