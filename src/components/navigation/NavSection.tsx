@@ -35,8 +35,25 @@ const NavSection = ({ style, logo }: Props) => {
           <Navlink href="/">Home</Navlink>
         </li>
 
-        <li>
-          <Navlink href="/about">About</Navlink>
+        <li className={dropdown.pages ? "rv-dropdown-active" : ""}>
+          <a
+            className="dropdown-btn"
+            role="button"
+            onClick={() => handleToggleDropdown("pages")}
+          >
+            About
+          </a>
+          <ul className="sub-menu">
+            <li>
+              <Navlink href="/about">Leadership</Navlink>
+            </li>
+            <li>
+              <Navlink href="/about?tab=naicsic">NAICS/SIC</Navlink>
+            </li>
+            <li>
+              <Navlink href="/about?tab=affiliations">Affiliations</Navlink>
+            </li>
+          </ul>
         </li>
 
         <li>

@@ -1,16 +1,22 @@
-import React from "react";
-import { Metadata } from "next";
+"use client";
+import React, { useState, useEffect } from "react";
 import BreadcrumbSection from "@/components/breadcrumb/BreadcrumbSection";
 import CtaSection from "@/components/cta/CtaSection";
 import InnerLayout from "@/components/layout/InnerLayout";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: "Selsoft - About Us",
-  description: "Learn about Selsoft's leadership, industry codes, and affiliations",
-};
+import { useSearchParams } from "next/navigation";
 
 const AboutPage = () => {
+  const searchParams = useSearchParams();
+  const [activeTab, setActiveTab] = useState("leadership");
+  
+  useEffect(() => {
+    const tab = searchParams.get("tab");
+    if (tab === "naicsic" || tab === "affiliations") {
+      setActiveTab(tab);
+    }
+  }, [searchParams]);
+  
   return (
     <main className="rv-14-body">
       <InnerLayout>
@@ -23,17 +29,32 @@ const AboutPage = () => {
                 {/* Navigation Tabs */}
                 <ul className="nav nav-tabs mb-5 justify-content-center" id="aboutTab" role="tablist">
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link active" id="leadership-tab" data-bs-toggle="tab" data-bs-target="#leadership" type="button" role="tab" aria-controls="leadership" aria-selected="true">
+                    <button 
+                      className={`nav-link ${activeTab === "leadership" ? "active" : ""}`} 
+                      id="leadership-tab" 
+                      onClick={() => setActiveTab("leadership")}
+                      type="button"
+                    >
                       Leadership
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="naicsic-tab" data-bs-toggle="tab" data-bs-target="#naicsic" type="button" role="tab" aria-controls="naicsic" aria-selected="false">
+                    <button 
+                      className={`nav-link ${activeTab === "naicsic" ? "active" : ""}`} 
+                      id="naicsic-tab" 
+                      onClick={() => setActiveTab("naicsic")}
+                      type="button"
+                    >
                       NAICS/SIC
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="affiliations-tab" data-bs-toggle="tab" data-bs-target="#affiliations" type="button" role="tab" aria-controls="affiliations" aria-selected="false">
+                    <button 
+                      className={`nav-link ${activeTab === "affiliations" ? "active" : ""}`} 
+                      id="affiliations-tab" 
+                      onClick={() => setActiveTab("affiliations")}
+                      type="button"
+                    >
                       Affiliations
                     </button>
                   </li>
@@ -42,15 +63,12 @@ const AboutPage = () => {
                 {/* Tab Content */}
                 <div className="tab-content" id="aboutTabContent">
                   {/* Leadership Tab */}
-                  <div className="tab-pane fade show active" id="leadership" role="tabpanel" aria-labelledby="leadership-tab">
+                  <div className={`tab-pane ${activeTab === "leadership" ? "show active" : "fade"}`} id="leadership" role="tabpanel" aria-labelledby="leadership-tab">
                     <div className="about-section-content">
                       <h2 className="text-center mb-5">Our Leadership Team</h2>
                       <div className="row g-4">
                         <div className="col-md-4">
                           <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <div className="team-image mb-3">
-                              <img src="/assets/img/team/home-6-teem-1.png" alt="Pushban Rajaiyan" className="img-fluid rounded-circle" style={{ width: "150px", height: "150px", objectFit: "cover" }} />
-                            </div>
                             <h3 className="h4 mb-1">Pushban Rajaiyan</h3>
                             <p className="text-primary mb-3">CEO</p>
                             <p className="mb-3">20+ years experience in IT and Business Development, managing global teams and software consulting business. Executive MBA from SMU.</p>
@@ -64,9 +82,6 @@ const AboutPage = () => {
                         
                         <div className="col-md-4">
                           <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <div className="team-image mb-3">
-                              <img src="/assets/img/team/home-6-teem-2.png" alt="Behmen Sanjana" className="img-fluid rounded-circle" style={{ width: "150px", height: "150px", objectFit: "cover" }} />
-                            </div>
                             <h3 className="h4 mb-1">Behmen Sanjana</h3>
                             <p className="text-primary mb-3">CFO</p>
                             <p className="mb-3">15+ years developing software solutions, with experience in Telecommunications, Banking, and Logistics industries. Strong in global markets.</p>
@@ -75,9 +90,6 @@ const AboutPage = () => {
                         
                         <div className="col-md-4">
                           <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <div className="team-image mb-3">
-                              <img src="/assets/img/team/home-6-teem-3.png" alt="Uma Sivalingam" className="img-fluid rounded-circle" style={{ width: "150px", height: "150px", objectFit: "cover" }} />
-                            </div>
                             <h3 className="h4 mb-1">Uma Sivalingam</h3>
                             <p className="text-primary mb-3">VP - Operations</p>
                             <p className="mb-3">Strategic leadership in software development and managed services. Over a decade of IT experience with Master's in computer science.</p>
@@ -86,9 +98,6 @@ const AboutPage = () => {
                         
                         <div className="col-md-6">
                           <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <div className="team-image mb-3">
-                              <img src="/assets/img/rv-6-member-2.jpg" alt="Radha Sampathkumar" className="img-fluid rounded-circle" style={{ width: "150px", height: "150px", objectFit: "cover" }} />
-                            </div>
                             <h3 className="h4 mb-1">Radha Sampathkumar</h3>
                             <p className="text-primary mb-3">General Manager</p>
                             <p className="mb-3">20+ years in IT delivery, program management across multiple domains. Certified PMP with Master's in Commerce.</p>
@@ -100,9 +109,6 @@ const AboutPage = () => {
                         
                         <div className="col-md-6">
                           <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <div className="team-image mb-3">
-                              <img src="/assets/img/rv-6-member-3.jpg" alt="Ramesh Rasaiyan" className="img-fluid rounded-circle" style={{ width: "150px", height: "150px", objectFit: "cover" }} />
-                            </div>
                             <h3 className="h4 mb-1">Ramesh Rasaiyan</h3>
                             <p className="text-primary mb-3">Director - UI/UX Practice</p>
                             <p className="mb-3">16+ years leading software development teams. Experienced in Front-End Development and UX Design.</p>
@@ -124,7 +130,7 @@ const AboutPage = () => {
                   </div>
                   
                   {/* NAICS/SIC Tab */}
-                  <div className="tab-pane fade" id="naicsic" role="tabpanel" aria-labelledby="naicsic-tab">
+                  <div className={`tab-pane ${activeTab === "naicsic" ? "show active" : "fade"}`} id="naicsic" role="tabpanel" aria-labelledby="naicsic-tab">
                     <div className="about-section-content">
                       <h2 className="text-center mb-5">NAICS/SIC Codes</h2>
                       
@@ -215,7 +221,7 @@ const AboutPage = () => {
                   </div>
                   
                   {/* Affiliations Tab */}
-                  <div className="tab-pane fade" id="affiliations" role="tabpanel" aria-labelledby="affiliations-tab">
+                  <div className={`tab-pane ${activeTab === "affiliations" ? "show active" : "fade"}`} id="affiliations" role="tabpanel" aria-labelledby="affiliations-tab">
                     <div className="about-section-content">
                       <h2 className="text-center mb-5">Our Affiliations</h2>
                       
