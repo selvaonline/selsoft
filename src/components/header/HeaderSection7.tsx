@@ -124,7 +124,7 @@ const HeaderSection7 = () => {
                   <img 
                     src="/assets/img/logo-main.png" 
                     alt="Selsoft Logo" 
-                    style={{ maxHeight: "40px", width: "auto" }}
+                    style={{ maxHeight: "100px", width: "auto" }}
                   />
                 </Link>
               </div>
