@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const FooterSection8 = () => {
+const HomeFooter = () => {
   return (
     <footer className="rv-1-footer rv-6-footer">
       <div className="container">
@@ -20,17 +20,14 @@ const FooterSection8 = () => {
                   Selsoft delivers innovative technology solutions in AI, Data Engineering, and Cloud Services to help businesses transform and achieve their strategic goals.
                 </p>
                 <div className="rv-1-socials">
-                  <a href="#" aria-label="Twitter">
+                  <a href="https://x.com/Selsoftx" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                     <i className="fa-brands fa-x-twitter"></i>
                   </a>
-                  <a href="#" aria-label="Facebook">
+                  <a href="https://www.facebook.com/profile.php?id=100066330325206#" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
-                  <a href="#" aria-label="LinkedIn">
+                  <a href="https://www.linkedin.com/company/selsoft-inc-/posts/?feedView=all" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <i className="fa-brands fa-linkedin-in"></i>
-                  </a>
-                  <a href="#" aria-label="Instagram">
-                    <i className="fa-brands fa-instagram"></i>
                   </a>
                 </div>
               </div>
@@ -134,4 +131,4 @@ const FooterSection8 = () => {
   );
 };
 
-export default FooterSection8;
+export default HomeFooter;

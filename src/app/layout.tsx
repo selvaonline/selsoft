@@ -8,6 +8,7 @@ import "../../public/assets/fontawesome/sharp-regular.min.css";
 import "../../public/assets/scss/style.scss";
 import "../../public/assets/scss/fix-mobile-blur.css";
 import "../../public/assets/scss/fix-dropdown.css";
+import "../../public/assets/scss/fix-homepage-alignment.css";
 import Cursor from "@/components/utils/Cursor";
 import {
   inter,

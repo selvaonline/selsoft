@@ -24,3 +24,5 @@ yarn-error.log*
 
 # React-specific temporary files (if any)
 coverage/
+# Contact form submissions backup
+contact-submissions/

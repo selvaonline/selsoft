@@ -30,11 +30,21 @@ const ContactForm = ({ innerPage }: Props) => {
     try {
       setIsSubmitting(true);
       
-      // Here you would typically send data to your API
-      console.log("Form data:", data);
+      // Send form data to our API route
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
       
-      // Simulate API call delay
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      // Handle response
+      const result = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to send message');
+      }
       
       // Show a success toast
       toast.success("Message sent successfully! We'll contact you shortly.");
@@ -43,7 +53,7 @@ const ContactForm = ({ innerPage }: Props) => {
       reset();
     } catch (error) {
       console.error("Error submitting form:", error);
-      toast.error("Something went wrong. Please try again later.");
+      toast.error(error instanceof Error ? error.message : "Something went wrong. Please try again later.");
     } finally {
       setIsSubmitting(false);
     }

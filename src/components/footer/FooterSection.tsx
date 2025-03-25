@@ -53,7 +53,7 @@ const FooterSection = () => {
                     <a href="#">About Us</a>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
                     <a href="#">Blog</a>

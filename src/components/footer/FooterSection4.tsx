@@ -93,8 +93,8 @@ const FooterSection4 = () => {
               className="col-md-4 text-center text-md-end"
             >
               <div className="rv-2-footer__nav">
-                <Link href="#">Privacy Policy</Link>
-                <Link href="#">Term of Service</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
+                <Link href="/terms-of-service">Terms of Service</Link>
               </div>
             </DivAnimateXAxis>
           </div>

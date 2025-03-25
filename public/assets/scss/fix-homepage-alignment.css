@@ -1,0 +1,45 @@
+/* Fix alignment issues on homepage */
+
+/* Ensure consistent text alignment in section headers */
+.rv-14-section__heading {
+  text-align: center !important;
+}
+
+/* Fix for the Technology Solutions heading */
+.rv-7-section__title {
+  text-align: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Ensure consistent centering for section descriptions */
+.rv-14-section__descr {
+  text-align: center !important;
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Ensure service cards have equal height and alignment */
+.service-card {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.service-card .btn {
+  margin-top: auto !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .rv-7-section__title {
+    font-size: 2rem !important;
+    line-height: 1.3 !important;
+  }
+}
