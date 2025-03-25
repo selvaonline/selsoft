@@ -9,6 +9,9 @@ type DropdownState = {
   home: boolean;
   pages: boolean;
   service: boolean;
+  aiSolutions: boolean;
+  dataEngineering: boolean;
+  cloudServices: boolean;
   blog: boolean;
 };
 const NavSection = ({ style, logo }: Props) => {
@@ -16,6 +19,9 @@ const NavSection = ({ style, logo }: Props) => {
     home: false,
     pages: false,
     service: false,
+    aiSolutions: false,
+    dataEngineering: false,
+    cloudServices: false,
     blog: false,
   });
 
@@ -75,14 +81,86 @@ const NavSection = ({ style, logo }: Props) => {
             Services
           </a>
           <ul className="sub-menu">
-            <li>
-              <Navlink href="/services/ai-solutions">AI Solutions</Navlink>
+            <li className={dropdown.aiSolutions ? "rv-dropdown-active" : ""}>
+              <a
+                className="dropdown-btn"
+                role="button"
+                onClick={() => handleToggleDropdown("aiSolutions")}
+              >
+                AI Solutions
+              </a>
+              <ul className="sub-menu">
+                <li>
+                  <Navlink href="/services/ai-solutions">Overview</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/ai-solutions/ai-development">AI Development</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/ai-solutions/process-automation">Process Automation</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/ai-solutions/face-recognition">Face Recognition</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/ai-solutions/iot-solutions">IoT Solutions</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/ai-solutions/deep-learning">Deep Learning</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/ai-solutions/nlp-solutions">NLP Solutions</Navlink>
+                </li>
+              </ul>
             </li>
-            <li>
-              <Navlink href="/services/data-engineering">Data Engineering</Navlink>
+            <li className={dropdown.dataEngineering ? "rv-dropdown-active" : ""}>
+              <a
+                className="dropdown-btn"
+                role="button"
+                onClick={() => handleToggleDropdown("dataEngineering")}
+              >
+                Data Engineering
+              </a>
+              <ul className="sub-menu">
+                <li>
+                  <Navlink href="/services/data-engineering">Overview</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/data-engineering/data-analytics">Data Analytics</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/data-engineering/data-pipeline">Data Pipeline</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/data-engineering/data-science">Data Science</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/data-engineering/cloud-data">Cloud Data</Navlink>
+                </li>
+              </ul>
             </li>
-            <li>
-              <Navlink href="/services/cloud-services">Cloud Services</Navlink>
+            <li className={dropdown.cloudServices ? "rv-dropdown-active" : ""}>
+              <a
+                className="dropdown-btn"
+                role="button"
+                onClick={() => handleToggleDropdown("cloudServices")}
+              >
+                Cloud Services
+              </a>
+              <ul className="sub-menu">
+                <li>
+                  <Navlink href="/services/cloud-services">Overview</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/cloud-services/aws-cloud">AWS Cloud</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/cloud-services/azure-cloud">Azure Cloud</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/cloud-services/gcp-cloud">GCP Cloud</Navlink>
+                </li>
+              </ul>
             </li>
           </ul>
         </li>

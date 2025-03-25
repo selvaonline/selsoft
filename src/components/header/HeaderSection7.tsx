@@ -124,7 +124,7 @@ const HeaderSection7 = () => {
                   <img 
                     src="/assets/img/logo-main.png" 
                     alt="Selsoft Logo" 
-                    style={{ maxHeight: "100px", width: "auto" }}
+                    style={{ maxHeight: "60px", width: "auto" }}
                   />
                 </Link>
               </div>
@@ -153,7 +153,7 @@ const HeaderSection7 = () => {
                   </button>
                 </div>
 
-                <NavSection style="rv-1-header__nav rv-7-header__nav rv-14-header__nav" />
+                <NavSection style="rv-1-header__nav rv-7-header__nav rv-14-header__nav" logo={null} />
               </div>
             </div>
 

@@ -55,7 +55,7 @@ const AIServicePage = () => {
                         <p className="mb-3">
                           Custom AI solutions tailored to your business needs, from predictive analytics to intelligent automation.
                         </p>
-                        <Link href="#" className="btn btn-sm btn-outline-primary">
+                        <Link href="/services/ai-solutions/ai-development" className="btn btn-sm btn-outline-primary">
                           Learn More
                         </Link>
                       </div>
@@ -70,7 +70,7 @@ const AIServicePage = () => {
                         <p className="mb-3">
                           AI-driven automation solutions that streamline workflows and optimize business operations.
                         </p>
-                        <Link href="#" className="btn btn-sm btn-outline-primary">
+                        <Link href="/services/ai-solutions/process-automation" className="btn btn-sm btn-outline-primary">
                           Learn More
                         </Link>
                       </div>
@@ -85,7 +85,7 @@ const AIServicePage = () => {
                         <p className="mb-3">
                           Advanced face recognition and video analysis for enhanced security and customer insights.
                         </p>
-                        <Link href="#" className="btn btn-sm btn-outline-primary">
+                        <Link href="/services/ai-solutions/face-recognition" className="btn btn-sm btn-outline-primary">
                           Learn More
                         </Link>
                       </div>
@@ -100,7 +100,7 @@ const AIServicePage = () => {
                         <p className="mb-3">
                           Intelligent connected systems that enable real-time monitoring, control, and data analysis.
                         </p>
-                        <Link href="#" className="btn btn-sm btn-outline-primary">
+                        <Link href="/services/ai-solutions/iot-solutions" className="btn btn-sm btn-outline-primary">
                           Learn More
                         </Link>
                       </div>
@@ -115,7 +115,7 @@ const AIServicePage = () => {
                         <p className="mb-3">
                           Neural network solutions for complex pattern recognition tasks and data analysis.
                         </p>
-                        <Link href="#" className="btn btn-sm btn-outline-primary">
+                        <Link href="/services/ai-solutions/deep-learning" className="btn btn-sm btn-outline-primary">
                           Learn More
                         </Link>
                       </div>
@@ -130,7 +130,7 @@ const AIServicePage = () => {
                         <p className="mb-3">
                           Natural language processing for understanding and generating human language.
                         </p>
-                        <Link href="#" className="btn btn-sm btn-outline-primary">
+                        <Link href="/services/ai-solutions/nlp-solutions" className="btn btn-sm btn-outline-primary">
                           Learn More
                         </Link>
                       </div>

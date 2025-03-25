@@ -26,18 +26,14 @@ const NavLink: React.FC<NavLinkProps> = ({
     isActive ? activeClassName : ""
   }`;
 
-  // Implement onClick handler for accessibility and styling consistency
-  const handleClick = () => {
-    // Optional: Add accessibility logic like screen reader announcements
-    if (!href.startsWith("#")) {
-      // Avoid navigating for local anchors
-      router.push(href);
-    }
+  // We're removing the explicit router.push to let the Link component handle navigation naturally
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // No need to manually navigate, the Link component will handle it
+    // This prevents double navigation which can cause issues on mobile
   };
 
   return (
     <Link
-      onClick={handleClick}
       href={href}
       className={combinedClassName}
       // Add aria-current attribute for accessibility (optional)

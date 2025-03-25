@@ -12,14 +12,8 @@ const FooterSection4 = () => {
           <div className="row g-4 justify-content-xl-between justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6 col-8 col-xxs-12">
               <div className="rv-1-footer__about">
-                <Link href="/">
-                  <img
-                    src="/assets/img/logo-main-white.png"
-                    alt="Logo"
-                    className="logo"
-                  />
-                </Link>
-                <p className="rv-1-footer__about-txt">
+                <h5 className="rv-1-footer-widget__title">Contact Us</h5>
+                <p className="rv-1-footer__about-txt mt-4">
                   Headquarters:<br />
                   303, S Jupiter, Suite 110<br />
                   Allen, TX 75002, USA.<br />
