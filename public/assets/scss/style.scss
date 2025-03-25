@@ -124,3 +124,59 @@ CSS INDEX
 @import "pages/login-page";
 @import "pages/industries-page";
 @import "pages/service-pages";
+
+/* Mobile navigation enhancements */
+.mobile-nav {
+  @include md {
+    ul > li {
+      margin-bottom: 15px !important;
+    }
+    
+    ul > li > a {
+      font-size: 18px !important;
+      font-weight: 500 !important;
+      padding: 12px 0 !important;
+    }
+    
+    .sub-menu {
+      padding-top: 10px !important;
+      
+      li {
+        margin-bottom: 12px !important;
+      }
+      
+      a {
+        font-size: 16px !important;
+        padding: 10px 0 !important;
+      }
+      
+      .sub-menu {
+        padding-left: 15px !important;
+        background-color: #dfdfdf !important;
+        display: none !important; /* Hide by default */
+        border-radius: 5px !important;
+        margin-top: 8px !important;
+        
+        li {
+          margin-bottom: 10px !important;
+        }
+        
+        a {
+          font-size: 15px !important;
+          padding: 8px 0 !important;
+        }
+      }
+    }
+    
+    /* Fix for nested dropdowns */
+    .rv-dropdown-active > .sub-menu {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    
+    .dropdown-btn:after {
+      font-size: 16px !important;
+      right: 10px !important;
+    }
+  }
+}

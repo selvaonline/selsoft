@@ -17,21 +17,20 @@ const FooterSection8 = () => {
                   />
                 </Link>
                 <p className="rv-1-footer__about-txt">
-                  Morbi pharetra, eros sed euismod pellentesque, nulla risus
-                  lobortis purus, quis maximus.
+                  Selsoft delivers innovative technology solutions in AI, Data Engineering, and Cloud Services to help businesses transform and achieve their strategic goals.
                 </p>
                 <div className="rv-1-socials">
-                  <a href="#">
-                    <i className="fa-brands fa-twitter"></i>
+                  <a href="#" aria-label="Twitter">
+                    <i className="fa-brands fa-x-twitter"></i>
                   </a>
-                  <a href="#">
+                  <a href="#" aria-label="Facebook">
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
-                  <a href="#">
+                  <a href="#" aria-label="LinkedIn">
                     <i className="fa-brands fa-linkedin-in"></i>
                   </a>
-                  <a href="#">
-                    <i className="fa-brands fa-pinterest-p"></i>
+                  <a href="#" aria-label="Instagram">
+                    <i className="fa-brands fa-instagram"></i>
                   </a>
                 </div>
               </div>
@@ -41,22 +40,19 @@ const FooterSection8 = () => {
               <div className="row gy-4">
                 <div className="col-6 col-xxs-12">
                   <div className="rv-1-footer-widget rv-6-footer-widget">
-                    <h5 className="rv-1-footer-widget__title">Services</h5>
+                    <h5 className="rv-1-footer-widget__title">Our Services</h5>
                     <ul className="rv-6-footer-widget__links">
                       <li>
-                        <a href="#">Business Planning</a>
+                        <Link href="/services/ai-solutions">AI Solutions</Link>
                       </li>
                       <li>
-                        <a href="#">Feasibility Study</a>
+                        <Link href="/services/data-engineering">Data Engineering</Link>
                       </li>
                       <li>
-                        <a href="#">Startup Funding</a>
+                        <Link href="/services/cloud-services">Cloud Services</Link>
                       </li>
                       <li>
-                        <a href="#">Business Plan Review</a>
-                      </li>
-                      <li>
-                        <a href="#">Investor Presentation</a>
+                        <Link href="/services">All Services</Link>
                       </li>
                     </ul>
                   </div>
@@ -64,22 +60,19 @@ const FooterSection8 = () => {
 
                 <div className="col-6 col-xxs-12">
                   <div className="rv-1-footer-widget rv-6-footer-widget">
-                    <h5 className="rv-1-footer-widget__title">Links</h5>
+                    <h5 className="rv-1-footer-widget__title">Useful Links</h5>
                     <ul className="rv-6-footer-widget__links">
                       <li>
-                        <a href="#">About Us</a>
+                        <Link href="/about">About Us</Link>
                       </li>
                       <li>
-                        <a href="#">Our Services</a>
+                        <Link href="/blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="#">Blogs</a>
+                        <Link href="/contact">Contact Us</Link>
                       </li>
                       <li>
-                        <a href="#">Pricing Plan</a>
-                      </li>
-                      <li>
-                        <a href="#">Contact us</a>
+                        <Link href="/industries">Industries</Link>
                       </li>
                     </ul>
                   </div>

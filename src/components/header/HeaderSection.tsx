@@ -110,8 +110,8 @@ const HeaderSection = ({ innerHeader }: Props) => {
               <NavSection
                 style={
                   innerHeader
-                    ? "rv-1-header__nav rv-inner-header__nav"
-                    : "rv-1-header__nav"
+                    ? "rv-1-header__nav rv-inner-header__nav mobile-nav"
+                    : "rv-1-header__nav mobile-nav"
                 }
               />
             </div>

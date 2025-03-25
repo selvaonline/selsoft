@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Navlink from "../utils/Navlink";
 type Props = {
   style: string;
-  logo?: string;
+  logo?: string | null;
 };
 type DropdownState = {
   home: boolean;
@@ -25,8 +25,12 @@ const NavSection = ({ style, logo }: Props) => {
     blog: false,
   });
 
-  const handleToggleDropdown = (dropdownName: keyof DropdownState) => {
+  const handleToggleDropdown = (dropdownName: keyof DropdownState, event: React.MouseEvent) => {
     if (window.innerWidth < 992) {
+      // Stop event propagation to prevent parent dropdowns from toggling
+      event.stopPropagation();
+      
+      // Only toggle the specific dropdown that was clicked
       setDropdown((prevState) => ({
         ...prevState,
         [dropdownName]: !prevState[dropdownName],
@@ -45,7 +49,7 @@ const NavSection = ({ style, logo }: Props) => {
           <a
             className="dropdown-btn"
             role="button"
-            onClick={() => handleToggleDropdown("pages")}
+            onClick={(e) => handleToggleDropdown("pages", e)}
           >
             About
           </a>
@@ -76,7 +80,7 @@ const NavSection = ({ style, logo }: Props) => {
           <a
             className="dropdown-btn"
             role="button"
-            onClick={() => handleToggleDropdown("service")}
+            onClick={(e) => handleToggleDropdown("service", e)}
           >
             Services
           </a>
@@ -85,7 +89,7 @@ const NavSection = ({ style, logo }: Props) => {
               <a
                 className="dropdown-btn"
                 role="button"
-                onClick={() => handleToggleDropdown("aiSolutions")}
+                onClick={(e) => handleToggleDropdown("aiSolutions", e)}
               >
                 AI Solutions
               </a>
@@ -117,7 +121,7 @@ const NavSection = ({ style, logo }: Props) => {
               <a
                 className="dropdown-btn"
                 role="button"
-                onClick={() => handleToggleDropdown("dataEngineering")}
+                onClick={(e) => handleToggleDropdown("dataEngineering", e)}
               >
                 Data Engineering
               </a>
@@ -143,7 +147,7 @@ const NavSection = ({ style, logo }: Props) => {
               <a
                 className="dropdown-btn"
                 role="button"
-                onClick={() => handleToggleDropdown("cloudServices")}
+                onClick={(e) => handleToggleDropdown("cloudServices", e)}
               >
                 Cloud Services
               </a>

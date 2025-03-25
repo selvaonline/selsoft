@@ -1,0 +1,55 @@
+/* Fix for nested dropdown menus */
+@media (max-width: 991px) {
+  /* Ensure sub-menus are displayed when parent is active */
+  .rv-dropdown-active > .sub-menu {
+    display: block;
+    max-height: 1000px;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+    padding-left: 15px;
+  }
+
+  /* Proper indentation for nested menus */
+  .sub-menu .sub-menu {
+    margin-left: 15px !important;
+    box-shadow: none !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  /* Clear position properties that might interfere with mobile layout */
+  .sub-menu {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    width: 100% !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Improve dropdown toggle appearance */
+  .dropdown-btn:after {
+    display: inline-block;
+    margin-left: 5px;
+    content: "\f107";
+    font-family: "Font Awesome 5 Pro";
+    transition: transform 0.3s ease;
+  }
+
+  .rv-dropdown-active > .dropdown-btn:after {
+    transform: rotate(180deg);
+  }
+  
+  /* Fix positioning of dropdown indicators */
+  .dropdown-btn {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    text-align: left !important;
+  }
+  
+  /* Add some spacing between items */
+  .sub-menu li {
+    margin-bottom: 5px;
+  }
+}
