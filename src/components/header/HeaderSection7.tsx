@@ -93,7 +93,7 @@ const HeaderSection7 = () => {
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-3 d-none d-md-block">
               <form
                 action="#"
                 className="rv-7-header-top__actions rv-14-header-top-form"

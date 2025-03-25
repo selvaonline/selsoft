@@ -1,61 +1,72 @@
-import { serviceData2 } from "@/data/Data";
 import Link from "next/link";
 import React from "react";
 import DivAnimateYAxis from "../utils/DivAnimateYAxis";
 
 const ServiceSection6 = () => {
-  const serviceData = serviceData2.slice(0, 4);
   return (
     <section className="rv-14-services rv-section-spacing">
       <DivAnimateYAxis className="container">
-        <div className="rv-3-section-heading rv-14-section__heading">
-          <div className="rv-3-section-heading__left">
-            <h6 className="rv-14-section__sub-title rv-text-anime">
-              Our Services
-            </h6>
-            <h2 className="rv-7-section__title rv-text-anime">
-              Comprehensive AI, Data, and Cloud Solutions
-            </h2>
-            <p className="rv-14-section__descr rv-text-anime">
-              We empower businesses to unlock the full potential of their data and automate operations with scalable, future-ready solutions
-            </p>
-          </div>
-
-          <div className="rv-3-section-heading__right">
-            <a href="#" className="rv-10-def-btn rv-14-def-btn">
-              View Services <i className="fa-regular fa-arrow-up-right"></i>
-            </a>
-          </div>
+        <div className="rv-3-section-heading rv-14-section__heading text-center mb-5">
+          <h6 className="rv-14-section__sub-title rv-text-anime">
+            Our Services
+          </h6>
+          <h2 className="rv-7-section__title rv-text-anime">
+            Comprehensive Technology Solutions
+          </h2>
+          <p className="rv-14-section__descr rv-text-anime mx-auto" style={{ maxWidth: "800px" }}>
+            At Selsoft, we offer a wide range of innovative technology solutions designed to help businesses 
+            transform, innovate, and achieve their strategic goals.
+          </p>
         </div>
 
-        <div className="row g-0 align-items-center justify-content-center rv-14-services-row">
-          {serviceData.map((item, index) => (
-            <DivAnimateYAxis
-              className="col-xl-3 col-lg-4 col-sm-6 col-9 col-xxs-12"
-              key={index}
-              duration={index * 0.2 + 1.2}
-            >
-              <div
-                className={`rv-14-service ${
-                  index + 1 === serviceData.length ? "rv-14-service--last" : ""
-                }`}
-              >
-                <div className="rv-14-service__icon">
-                  <item.icon />
-                </div>
-                <h4 className="rv-14-service__title">
-                  <Link href={`/services/${item.slug}`}>{item.title}</Link>
-                </h4>
-                <p className="rv-3-service__descr">{item.description}</p>
-                <Link
-                  href={`/services/${item.slug}`}
-                  className="rv-14-service__btn"
-                >
-                  Read More <i className="fa-regular fa-arrow-up-right"></i>
-                </Link>
+        <div className="row g-4 mb-5">
+          <div className="col-md-4">
+            <div className="service-card p-4 text-center h-100 shadow-sm rounded">
+              <div className="icon-wrapper mb-3">
+                <i className="fa-solid fa-robot fs-1 text-primary"></i>
               </div>
-            </DivAnimateYAxis>
-          ))}
+              <h3 className="h4 mb-3">AI Solutions</h3>
+              <p className="mb-4">
+                Harness the power of artificial intelligence to solve complex business challenges 
+                and gain competitive advantage.
+              </p>
+              <Link href="/services/ai-solutions" className="btn btn-outline-primary">Learn More</Link>
+            </div>
+          </div>
+          
+          <div className="col-md-4">
+            <div className="service-card p-4 text-center h-100 shadow-sm rounded">
+              <div className="icon-wrapper mb-3">
+                <i className="fa-solid fa-database fs-1 text-primary"></i>
+              </div>
+              <h3 className="h4 mb-3">Data Engineering</h3>
+              <p className="mb-4">
+                Transform your raw data into valuable insights with our comprehensive 
+                data engineering solutions.
+              </p>
+              <Link href="/services/data-engineering" className="btn btn-outline-primary">Learn More</Link>
+            </div>
+          </div>
+          
+          <div className="col-md-4">
+            <div className="service-card p-4 text-center h-100 shadow-sm rounded">
+              <div className="icon-wrapper mb-3">
+                <i className="fa-solid fa-cloud fs-1 text-primary"></i>
+              </div>
+              <h3 className="h4 mb-3">Cloud Services</h3>
+              <p className="mb-4">
+                Scale efficiently and innovate rapidly with our secure and reliable 
+                cloud computing solutions.
+              </p>
+              <Link href="/services/cloud-services" className="btn btn-outline-primary">Learn More</Link>
+            </div>
+          </div>
+        </div>
+        
+        <div className="text-center">
+          <Link href="/services" className="rv-10-def-btn rv-14-def-btn">
+            View All Services <i className="fa-regular fa-arrow-up-right"></i>
+          </Link>
         </div>
       </DivAnimateYAxis>
     </section>

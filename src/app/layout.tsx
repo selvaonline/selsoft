@@ -6,6 +6,7 @@ import "../../public/assets/fontawesome/all.min.css";
 import "../../public/assets/fontawesome/sharp-solid.min.css";
 import "../../public/assets/fontawesome/sharp-regular.min.css";
 import "../../public/assets/scss/style.scss";
+import "../../public/assets/scss/fix-mobile-blur.css";
 import Cursor from "@/components/utils/Cursor";
 import {
   inter,

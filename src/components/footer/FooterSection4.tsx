@@ -29,7 +29,7 @@ const FooterSection4 = () => {
                 </p>
                 <div className="rv-1-socials rv-inner-socials">
                   <Link href="https://x.com/Selsoftx" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-x-twitter"></i>
+                    <i className="fa-brands fa-twitter"></i>
                   </Link>
                   <Link href="https://www.facebook.com/profile.php?id=100066330325206#" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-facebook-f"></i>
@@ -47,12 +47,6 @@ const FooterSection4 = () => {
                 <ul className="rv-8-footer-widget__links">
                   <li>
                     <Link href="/about">About Us</Link>
-                  </li>
-                  <li>
-                    <Link href="/projects">Our Projects</Link>
-                  </li>
-                  <li>
-                    <Link href="/team">Our Team</Link>
                   </li>
                   <li>
                     <Link href="/blog">Blog</Link>
