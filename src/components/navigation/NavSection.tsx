@@ -198,7 +198,7 @@ const NavSection = ({ style, logo }: Props) => {
         </li>
 
         <li>
-          <Navlink href="/blog">Blog</Navlink>
+          <Navlink href="#">Use Cases</Navlink>
         </li>
 
         <li>

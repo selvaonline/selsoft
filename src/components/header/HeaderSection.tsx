@@ -79,7 +79,7 @@ const HeaderSection = ({ innerHeader }: Props) => {
             <div className="rv-1-logo">
               <Link href="/">
                 <img
-                  src="/assets/img/selsoft-logo.svg"
+                  src={innerHeader ? "/assets/img/selsoft-logo-dark.svg" : "/assets/img/selsoft-logo.svg"}
                   alt="Selsoft"
                   className="rv-1-logo"
                   style={{ maxHeight: "35px", width: "auto" }}
@@ -97,7 +97,10 @@ const HeaderSection = ({ innerHeader }: Props) => {
             >
               <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
                 <Link href="/" className="logo-container">
-                  <img src="/assets/img/selsoft-logo.svg" alt="Selsoft" />
+                  <img 
+                    src={innerHeader ? "/assets/img/selsoft-logo-dark.svg" : "/assets/img/selsoft-logo.svg"} 
+                    alt="Selsoft" 
+                  />
                 </Link>
                 <button
                   className="rv-3-def-btn rv-1-header-mobile-menu-btn sidebar-close-btn"

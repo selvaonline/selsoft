@@ -106,25 +106,6 @@ const AboutPage = () => {
                             </p>
                           </div>
                         </div>
-                        
-                        <div className="col-md-6">
-                          <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <h3 className="h4 mb-1">Ramesh Rasaiyan</h3>
-                            <p className="text-primary mb-3">Director - UI/UX Practice</p>
-                            <p className="mb-3">16+ years leading software development teams. Experienced in Front-End Development and UX Design.</p>
-                            <div className="social-icons">
-                              <a href="https://www.facebook.com/ramesh.rasaiyan" target="_blank" rel="noopener noreferrer" className="me-2">
-                                <i className="fa-brands fa-facebook-f"></i>
-                              </a>
-                              <a href="https://twitter.com/rameshrasaiyan" target="_blank" rel="noopener noreferrer" className="me-2">
-                                <i className="fa-brands fa-x-twitter"></i>
-                              </a>
-                              <a href="https://www.linkedin.com/in/rameshrasaiyan/" target="_blank" rel="noopener noreferrer">
-                                <i className="fa-brands fa-linkedin-in"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -241,17 +222,6 @@ const AboutPage = () => {
                                     <h4 className="h5 mb-3">Minority Owned Business</h4>
                                     <p className="mb-1"><strong>Certifier:</strong> DFW Minority Business Council</p>
                                     <p className="mb-0"><strong>Since:</strong> August 2009</p>
-                                  </div>
-                                </div>
-                                
-                                <div className="col-md-6">
-                                  <div className="certification-card p-4 h-100 text-center border rounded">
-                                    <div className="icon-wrapper mb-3">
-                                      <i className="fa-solid fa-certificate fs-1 text-primary"></i>
-                                    </div>
-                                    <h4 className="h5 mb-3">SBA 8(a) Certification</h4>
-                                    <p className="mb-1"><strong>Certifier:</strong> U.S. Small Business Administration</p>
-                                    <p className="mb-0"><strong>Since:</strong> March 2010</p>
                                   </div>
                                 </div>
                               </div>

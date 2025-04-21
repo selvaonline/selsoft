@@ -9,8 +9,8 @@ ul.sub-menu {
   background-color: #0b2154 !important;
   border: none !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
-  padding: 12px 0 !important; /* Increased top/bottom padding */
-  min-width: 250px !important; /* Ensure menus have enough width */
+  padding: 15px 0 !important; /* Increased top/bottom padding */
+  min-width: 280px !important; /* Increased minimum width for more space */
 }
 
 /* Target all menu links with high specificity */
@@ -31,9 +31,10 @@ ul.sub-menu.cybersecurity-submenu li a,
   background-color: transparent !important;
   font-weight: normal !important;
   text-shadow: none !important;
-  padding: 12px 20px !important; /* Increased padding for menu items */
+  padding: 14px 25px !important; /* Increased padding for menu items */
   line-height: 1.5 !important; /* Improved line height */
-  font-size: 15px !important; /* Slightly larger font size */
+  font-size: 16px !important; /* Increased font size */
+  white-space: nowrap !important; /* Prevent text wrapping */
 }
 
 /* Target hover states with high specificity */
@@ -67,7 +68,7 @@ ul.sub-menu.cybersecurity-submenu li,
 .rv-8-header__nav li.cybersecurity-menu ul.sub-menu.cybersecurity-submenu li,
 .rv-8-header__nav ul li ul li {
   background-color: #0b2154 !important;
-  margin: 2px 0 !important; /* Add vertical spacing between items */
+  margin: 4px 0 !important; /* Increased vertical spacing between items */
 }
 
 /* Specific fix for CyberSecurity submenu with maximum specificity */
@@ -259,7 +260,19 @@ li > .sub-menu > li > .sub-menu {
   top: 0;
   left: 100%;
   margin-top: 0;
-  margin-left: 5px; /* Add a small gap between parent and child menu */
+  margin-left: 8px; /* Increased gap between parent and child menu */
+}
+
+/* Services menu specific styling */
+.rv-8-header__nav li:nth-child(4) .dropdown-menu,
+.rv-8-header__nav li:nth-child(4) .sub-menu {
+  min-width: 300px !important; /* Extra width for Services menu */
+}
+
+.rv-8-header__nav li:nth-child(4) .dropdown-menu a,
+.rv-8-header__nav li:nth-child(4) .sub-menu a {
+  padding: 16px 30px !important; /* Extra padding for Services menu items */
+  letter-spacing: 0.5px !important; /* Better letter spacing */
 }
 
 /* Add spacing between main navigation items */
