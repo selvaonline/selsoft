@@ -9,7 +9,6 @@ import "../../public/assets/scss/style.scss";
 import "../../public/assets/scss/fix-mobile-blur.css";
 import "../../public/assets/scss/fix-dropdown.css";
 import "../../public/assets/scss/fix-homepage-alignment.css";
-import Cursor from "@/components/utils/Cursor";
 import {
   inter,
   mulish,
@@ -31,7 +30,6 @@ export default function RootLayout({
         className={`${inter.variable} ${mulish.variable} ${newsreader.variable} ${sahitya.variable} ${philosopher.variable} ${oldenburg.variable}`}
       >
         <Providers>
-          <Cursor />
           {children}
           <ToastContainer />
         </Providers>
