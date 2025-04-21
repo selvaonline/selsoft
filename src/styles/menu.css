@@ -1,28 +1,39 @@
+/* Main navigation styles */
 .header-nav {
   position: relative;
-  z-index: 100;
+  z-index: 1050; /* Even higher z-index to ensure it's above all content */
 }
 
 .nav-item {
   position: relative;
+  margin: 0 5px; /* Add spacing between nav items */
 }
 
+/* Primary dropdown menu */
 .dropdown-menu {
   position: absolute;
-  z-index: 101;
+  z-index: 1051; /* Higher than header-nav */
   top: 100%;
   left: 0;
-  min-width: 200px;
+  min-width: 250px;
   display: none;
   background-color: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 0;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 10px; /* Increased margin for more space */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none; /* Prevent interaction until fully visible */
 }
 
+/* Show dropdown on hover */
 .nav-item:hover > .dropdown-menu {
   display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 /* Submenu (nested dropdown) styles */
@@ -33,11 +44,55 @@
 .dropdown-submenu .dropdown-menu {
   top: 0;
   left: 100%;
-  margin-top: -1px;
+  margin-top: -10px; /* Align with parent item */
+  margin-left: 10px; /* Increased space between parent and child dropdown */
 }
 
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Add arrow indicators for dropdowns */
+.dropdown > .nav-link:after {
+  content: '';
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.dropdown-submenu > .nav-link:after {
+  content: '';
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid;
+}
+
+/* Style dropdown items */
+.dropdown-menu li {
+  padding: 0;
+  position: relative;
+}
+
+.dropdown-menu .nav-link {
+  padding: 10px 20px;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu .nav-link:hover {
+  background-color: #f8f9fa;
 }
 
 /* Mobile menu adjustments */
@@ -47,10 +102,29 @@
     box-shadow: none;
     padding-left: 15px;
     border: none;
+    margin-top: 0;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: none;
   }
 
   .dropdown-submenu .dropdown-menu {
     left: 0;
     padding-left: 15px;
+    margin-left: 0;
+  }
+  
+  /* Show mobile dropdown when parent is clicked/tapped */
+  .dropdown.show > .dropdown-menu,
+  .dropdown-submenu.show > .dropdown-menu {
+    display: block;
+  }
+  
+  /* Adjust arrow indicators for mobile */
+  .dropdown > .nav-link:after,
+  .dropdown-submenu > .nav-link:after {
+    float: right;
+    margin-top: 8px;
   }
 }

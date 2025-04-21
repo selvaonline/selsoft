@@ -11,7 +11,7 @@ const AboutPage = () => {
   const [activeTab, setActiveTab] = useState("leadership");
   
   useEffect(() => {
-    const tab = searchParams.get("tab");
+    const tab = searchParams?.get("tab");
     if (tab === "naicsic" || tab === "affiliations") {
       setActiveTab(tab);
     }
