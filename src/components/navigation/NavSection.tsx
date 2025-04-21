@@ -97,7 +97,7 @@ const NavSection = ({ style, logo }: Props) => {
               </a>
               <ul className="sub-menu">
                 <li>
-                  <Navlink href="/services/ai-solutions">Overview</Navlink>
+                  <Navlink href="/services/ai-solutions">AI Solutions Home</Navlink>
                 </li>
                 <li>
                   <Navlink href="/services/ai-solutions/ai-development">AI Development</Navlink>
@@ -129,7 +129,7 @@ const NavSection = ({ style, logo }: Props) => {
               </a>
               <ul className="sub-menu">
                 <li>
-                  <Navlink href="/services/data-engineering">Overview</Navlink>
+                  <Navlink href="/services/data-engineering">Data Engineering Home</Navlink>
                 </li>
                 <li>
                   <Navlink href="/services/data-engineering/data-analytics">Data Analytics</Navlink>
@@ -155,7 +155,7 @@ const NavSection = ({ style, logo }: Props) => {
               </a>
               <ul className="sub-menu">
                 <li>
-                  <Navlink href="/services/cloud-services">Overview</Navlink>
+                  <Navlink href="/services/cloud-services">Cloud Services Home</Navlink>
                 </li>
                 <li>
                   <Navlink href="/services/cloud-services/aws-cloud">AWS Cloud</Navlink>
@@ -168,29 +168,29 @@ const NavSection = ({ style, logo }: Props) => {
                 </li>
               </ul>
             </li>
-            <li className={dropdown.cyberSecurity ? "rv-dropdown-active" : ""}>
+            <li className={dropdown.cyberSecurity ? "rv-dropdown-active cybersecurity-menu" : "cybersecurity-menu"}>
               <a
-                className="dropdown-btn"
+                className="dropdown-btn cybersecurity-dropdown"
                 role="button"
                 onClick={(e) => handleToggleDropdown("cyberSecurity", e)}
               >
                 CyberSecurity
               </a>
-              <ul className="sub-menu">
+              <ul className="sub-menu cybersecurity-submenu">
                 <li>
-                  <Navlink href="/services/cybersecurity">Overview</Navlink>
+                  <Navlink href="/services/cybersecurity">CyberSecurity Home</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cybersecurity#soc-as-a-service">SOC-as-a-Service</Navlink>
+                  <Navlink href="/services/cybersecurity#soc-as-a-service" className="cybersecurity-link">SOC-as-a-Service</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cybersecurity#incident-response">Incident Response</Navlink>
+                  <Navlink href="/services/cybersecurity#incident-response" className="cybersecurity-link">Incident Response</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cybersecurity#penetration-testing">Penetration Testing</Navlink>
+                  <Navlink href="/services/cybersecurity#penetration-testing" className="cybersecurity-link">Penetration Testing</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cybersecurity#security-advisory">Security Advisory</Navlink>
+                  <Navlink href="/services/cybersecurity#security-advisory" className="cybersecurity-link">Security Advisory</Navlink>
                 </li>
               </ul>
             </li>

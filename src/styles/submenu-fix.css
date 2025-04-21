@@ -1,0 +1,252 @@
+/* Submenu fixes for visibility */
+.dropdown-menu,
+.sub-menu,
+.dropdown-submenu .dropdown-menu,
+.nav-item .dropdown-menu,
+.cybersecurity-submenu,
+ul.dropdown-menu,
+ul.sub-menu {
+  background-color: #0b2154 !important;
+  border: none !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Target all menu links with high specificity */
+.dropdown-menu a,
+.dropdown-menu .nav-link,
+.sub-menu a,
+.sub-menu .nav-link,
+.cybersecurity-submenu a,
+.cybersecurity-submenu .nav-link,
+.cybersecurity-link,
+ul.sub-menu li a,
+ul.sub-menu.cybersecurity-submenu li a,
+.cybersecurity-menu .sub-menu li a,
+.rv-8-header__nav ul li a,
+.rv-8-header__nav .dropdown-menu li a,
+.rv-8-header__nav .sub-menu li a {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  font-weight: normal !important;
+  text-shadow: none !important;
+}
+
+/* Target hover states with high specificity */
+.dropdown-menu a:hover,
+.dropdown-menu .nav-link:hover,
+.sub-menu a:hover,
+.sub-menu .nav-link:hover,
+.cybersecurity-submenu a:hover,
+.cybersecurity-submenu .nav-link:hover,
+.cybersecurity-link:hover,
+ul.sub-menu li a:hover,
+ul.sub-menu.cybersecurity-submenu li a:hover,
+.cybersecurity-menu .sub-menu li a:hover,
+.rv-8-header__nav ul li a:hover,
+.rv-8-header__nav .dropdown-menu li a:hover,
+.rv-8-header__nav .sub-menu li a:hover {
+  background-color: #1a3a7a !important;
+  color: #ffffff !important;
+}
+
+/* Specific fix for CyberSecurity submenu with maximum specificity */
+.cybersecurity-menu .sub-menu,
+.cybersecurity-menu ul.sub-menu,
+li.cybersecurity-menu ul.sub-menu,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu,
+.rv-8-header__nav .cybersecurity-menu .sub-menu,
+.rv-8-header__nav .cybersecurity-menu ul.sub-menu.cybersecurity-submenu,
+.rv-8-header__nav ul.dropdown-menu,
+.rv-8-header__nav ul.sub-menu {
+  background-color: #0b2154 !important;
+  border: none !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Force all menu items to have proper styling with maximum specificity */
+.rv-8-header__nav .dropdown-menu li a,
+.rv-8-header__nav .sub-menu li a,
+.rv-8-header__nav .dropdown-menu .nav-link,
+.rv-8-header__nav .sub-menu .nav-link,
+.rv-8-header__nav .cybersecurity-menu .sub-menu li a,
+.rv-8-header__nav .cybersecurity-menu ul.sub-menu li a,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu li a,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu.cybersecurity-submenu li a,
+.rv-8-header__nav ul li ul li a {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  font-weight: normal !important;
+  text-shadow: none !important;
+}
+
+/* Override any theme-specific styles with maximum specificity */
+.rv-8-header__nav .dropdown-menu,
+.rv-8-header__nav .sub-menu,
+.rv-8-header__nav .cybersecurity-menu .sub-menu,
+.rv-8-header__nav .cybersecurity-menu ul.sub-menu,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu.cybersecurity-submenu,
+.rv-8-header__nav ul.dropdown-menu,
+.rv-8-header__nav ul.sub-menu {
+  background-color: #0b2154 !important;
+}
+
+/* Target specific menu items by text content */
+a[href*="cybersecurity"],
+a[href*="overview"],
+a[href*="soc-as-a-service"],
+a[href*="incident-response"],
+a[href*="penetration-testing"],
+a[href*="security-advisory"],
+a[href*="cloud-services"],
+a[href*="aws-cloud"],
+a[href*="azure-cloud"],
+a[href*="gcp-cloud"],
+a[href*="data-engineering"],
+a[href*="ai-solutions"] {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  font-weight: normal !important;
+  text-shadow: none !important;
+}
+
+a[href*="cybersecurity"]:hover,
+a[href*="overview"]:hover,
+a[href*="soc-as-a-service"]:hover,
+a[href*="incident-response"]:hover,
+a[href*="penetration-testing"]:hover,
+a[href*="security-advisory"]:hover,
+a[href*="cloud-services"]:hover,
+a[href*="aws-cloud"]:hover,
+a[href*="azure-cloud"]:hover,
+a[href*="gcp-cloud"]:hover,
+a[href*="data-engineering"]:hover,
+a[href*="ai-solutions"]:hover {
+  background-color: #1a3a7a !important;
+}
+
+/* Target all list items in dropdown menus with maximum specificity */
+.dropdown-menu li,
+.sub-menu li,
+.cybersecurity-submenu li,
+ul.sub-menu li,
+ul.sub-menu.cybersecurity-submenu li,
+.cybersecurity-menu .sub-menu li,
+.cybersecurity-menu ul.sub-menu li,
+.rv-8-header__nav .cybersecurity-menu ul.sub-menu li,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu li,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu.cybersecurity-submenu li,
+.rv-8-header__nav ul li ul li {
+  background-color: #0b2154 !important;
+}
+
+/* Direct inline style override */
+.cybersecurity-submenu,
+.dropdown-menu,
+.sub-menu {
+  background-color: #0b2154 !important;
+}
+
+.cybersecurity-submenu li,
+.dropdown-menu li,
+.sub-menu li {
+  background-color: #0b2154 !important;
+}
+
+.cybersecurity-submenu li a,
+.dropdown-menu li a,
+.sub-menu li a {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  font-weight: normal !important;
+  text-shadow: none !important;
+}
+
+/* Override any inline styles */
+[style*="background"] {
+  background-color: #0b2154 !important;
+}
+
+/* Ensure all submenu elements have proper styling */
+.rv-8-header__nav .dropdown-menu,
+.rv-8-header__nav .sub-menu,
+.rv-8-header__nav .cybersecurity-submenu,
+.rv-8-header__nav ul.dropdown-menu,
+.rv-8-header__nav ul.sub-menu {
+  background-color: #0b2154 !important;
+  color: #ffffff !important;
+}
+
+/* Fix for nested menus */
+.rv-8-header__nav ul li ul,
+.rv-8-header__nav ul li ul li,
+.rv-8-header__nav ul li ul li a {
+  background-color: #0b2154 !important;
+  color: #ffffff !important;
+  font-weight: normal !important;
+  text-shadow: none !important;
+}
+
+/* Fix for text color in all menu items */
+.rv-8-header__nav a,
+.rv-8-header__nav li a,
+.rv-8-header__nav ul li a,
+.rv-8-header__nav ul li ul li a {
+  color: #ffffff !important;
+}
+
+/* Fix for dropdown visibility - UPDATED to prevent overlapping */
+.dropdown-menu,
+.sub-menu {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Only show the dropdown when parent is hovered or has active class */
+.nav-item:hover > .dropdown-menu,
+.nav-item.rv-dropdown-active > .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu,
+.dropdown-submenu.rv-dropdown-active > .dropdown-menu,
+li:hover > .sub-menu,
+li.rv-dropdown-active > .sub-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Ensure only direct children submenus are shown on hover */
+.nav-item:hover > .dropdown-menu .dropdown-menu,
+.nav-item:hover > .dropdown-menu .sub-menu,
+.dropdown-submenu:hover > .dropdown-menu .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu .sub-menu,
+li:hover > .sub-menu .sub-menu {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Only show nested dropdowns when their direct parent is hovered */
+.nav-item:hover > .dropdown-menu > li:hover > .dropdown-menu,
+.nav-item:hover > .dropdown-menu > li:hover > .sub-menu,
+.dropdown-submenu:hover > .dropdown-menu > li:hover > .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu > li:hover > .sub-menu,
+li:hover > .sub-menu > li:hover > .sub-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Positioning for nested menus */
+.dropdown-submenu > .dropdown-menu,
+.dropdown-submenu > .sub-menu,
+li > .sub-menu > li > .sub-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0;
+  margin-left: 0;
+}
