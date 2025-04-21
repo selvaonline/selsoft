@@ -52,6 +52,9 @@ const FooterSection8 = () => {
                         <Link href="/services/cloud-services">Cloud Services</Link>
                       </li>
                       <li>
+                        <Link href="/services/cybersecurity">CyberSecurity</Link>
+                      </li>
+                      <li>
                         <Link href="/services">All Services</Link>
                       </li>
                     </ul>
