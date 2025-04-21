@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "home": "홈",
+    "about": "소개",
+    "products": "제품",
+    "services": "서비스",
+    "useCases": "사용 사례",
+    "contact": "연락처",
+    "leadership": "리더십",
+    "naicsSic": "NAICS/SIC",
+    "affiliations": "제휴"
+  },
+  "services": {
+    "aiSolutions": "AI 솔루션",
+    "dataEngineering": "데이터 엔지니어링",
+    "cloudServices": "클라우드 서비스",
+    "cyberSecurity": "사이버 보안"
+  },
+  "products": {
+    "timePulse": "타임 펄스",
+    "rts": "RTS - 채용 추적 시스템"
+  },
+  "contact": {
+    "getInTouch": "연락하기",
+    "contactUs": "문의하기",
+    "name": "이름",
+    "email": "이메일",
+    "phone": "전화번호",
+    "message": "메시지",
+    "submit": "제출"
+  },
+  "footer": {
+    "allRightsReserved": "모든 권리 보유",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "서비스 약관"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "home": "হোম",
+    "about": "সম্পর্কে",
+    "products": "পণ্য",
+    "services": "সেবা",
+    "useCases": "ব্যবহারের ক্ষেত্র",
+    "contact": "যোগাযোগ",
+    "leadership": "নেতৃত্ব",
+    "naicsSic": "NAICS/SIC",
+    "affiliations": "সংযুক্তি"
+  },
+  "services": {
+    "aiSolutions": "এআই সমাধান",
+    "dataEngineering": "ডাটা ইঞ্জিনিয়ারিং",
+    "cloudServices": "ক্লাউড সার্ভিস",
+    "cyberSecurity": "সাইবার সিকিউরিটি"
+  },
+  "products": {
+    "timePulse": "টাইম পালস",
+    "rts": "আরটিএস - রিক্রুটমেন্ট ট্র্যাকিং সিস্টেম"
+  },
+  "contact": {
+    "getInTouch": "যোগাযোগ করুন",
+    "contactUs": "আমাদের সাথে যোগাযোগ করুন",
+    "name": "নাম",
+    "email": "ইমেইল",
+    "phone": "ফোন",
+    "message": "বার্তা",
+    "submit": "জমা দিন"
+  },
+  "footer": {
+    "allRightsReserved": "সর্বস্বত্ব সংরক্ষিত",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsOfService": "সেবার শর্তাবলী"
+  }
+}

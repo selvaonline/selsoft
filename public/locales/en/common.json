@@ -1,0 +1,58 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "services": "Services",
+    "useCases": "Use Cases",
+    "contact": "Contact",
+    "leadership": "Leadership",
+    "naicsSic": "NAICS/SIC",
+    "affiliations": "Affiliations"
+  },
+  "services": {
+    "aiSolutions": "AI Solutions",
+    "dataEngineering": "Data Engineering",
+    "cloudServices": "Cloud Services",
+    "cyberSecurity": "CyberSecurity",
+    "aiSolutionsHome": "AI Solutions Home",
+    "aiDevelopment": "AI Development",
+    "processAutomation": "Process Automation",
+    "faceRecognition": "Face Recognition",
+    "iotSolutions": "IoT Solutions",
+    "deepLearning": "Deep Learning",
+    "nlpSolutions": "NLP Solutions",
+    "dataEngineeringHome": "Data Engineering Home",
+    "dataAnalytics": "Data Analytics",
+    "dataPipeline": "Data Pipeline",
+    "dataScience": "Data Science",
+    "cloudData": "Cloud Data",
+    "cloudServicesHome": "Cloud Services Home",
+    "awsCloud": "AWS Cloud",
+    "azureCloud": "Azure Cloud",
+    "gcpCloud": "GCP Cloud",
+    "cyberSecurityHome": "CyberSecurity Home",
+    "socAsAService": "SOC-as-a-Service",
+    "incidentResponse": "Incident Response",
+    "penetratingTesting": "Penetration Testing",
+    "securityAdvisory": "Security Advisory"
+  },
+  "products": {
+    "timePulse": "Time Pulse",
+    "rts": "RTS - Recruitment Tracking System"
+  },
+  "contact": {
+    "getInTouch": "Get in Touch",
+    "contactUs": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Submit"
+  },
+  "footer": {
+    "allRightsReserved": "All Rights Reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

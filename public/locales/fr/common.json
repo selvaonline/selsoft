@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "products": "Produits",
+    "services": "Services",
+    "useCases": "Cas d'Utilisation",
+    "contact": "Contact",
+    "leadership": "Leadership",
+    "naicsSic": "NAICS/SIC",
+    "affiliations": "Affiliations"
+  },
+  "services": {
+    "aiSolutions": "Solutions d'IA",
+    "dataEngineering": "Ingénierie des Données",
+    "cloudServices": "Services Cloud",
+    "cyberSecurity": "Cybersécurité"
+  },
+  "products": {
+    "timePulse": "Time Pulse",
+    "rts": "RTS - Système de Suivi de Recrutement"
+  },
+  "contact": {
+    "getInTouch": "Entrer en Contact",
+    "contactUs": "Contactez-nous",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "message": "Message",
+    "submit": "Soumettre"
+  },
+  "footer": {
+    "allRightsReserved": "Tous Droits Réservés",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation"
+  }
+}

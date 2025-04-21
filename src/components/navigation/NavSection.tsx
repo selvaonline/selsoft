@@ -1,10 +1,14 @@
 "use client";
 import React, { useState } from "react";
 import Navlink from "../utils/Navlink";
+import { useLanguage } from "../../context/LanguageContext";
+import { useAppTranslation } from "../../utils/translation";
+
 type Props = {
   style: string;
   logo?: string | null;
 };
+
 type DropdownState = {
   home: boolean;
   pages: boolean;
@@ -16,7 +20,9 @@ type DropdownState = {
   products: boolean;
   blog: boolean;
 };
+
 const NavSection = ({ style, logo }: Props) => {
+  const { t } = useAppTranslation();
   const [dropdown, setDropdown] = useState<DropdownState>({
     home: false,
     pages: false,
@@ -46,7 +52,7 @@ const NavSection = ({ style, logo }: Props) => {
     <div className={style}>
       <ul className="justify-content-center">
         <li>
-          <Navlink href="/">Home</Navlink>
+          <Navlink href="/">{t('navigation.home')}</Navlink>
         </li>
 
         <li className={dropdown.pages ? "rv-dropdown-active" : ""}>
@@ -55,17 +61,17 @@ const NavSection = ({ style, logo }: Props) => {
             role="button"
             onClick={(e) => handleToggleDropdown("pages", e)}
           >
-            About
+            {t('navigation.about')}
           </a>
           <ul className="sub-menu">
             <li>
-              <Navlink href="/about">Leadership</Navlink>
+              <Navlink href="/about">{t('navigation.leadership')}</Navlink>
             </li>
             <li>
-              <Navlink href="/about?tab=naicsic">NAICS/SIC</Navlink>
+              <Navlink href="/about?tab=naicsic">{t('navigation.naicsSic')}</Navlink>
             </li>
             <li>
-              <Navlink href="/about?tab=affiliations">Affiliations</Navlink>
+              <Navlink href="/about?tab=affiliations">{t('navigation.affiliations')}</Navlink>
             </li>
           </ul>
         </li>
@@ -76,14 +82,14 @@ const NavSection = ({ style, logo }: Props) => {
             role="button"
             onClick={(e) => handleToggleDropdown("products", e)}
           >
-            Products
+            {t('navigation.products')}
           </a>
           <ul className="sub-menu">
             <li>
-              <Navlink href="/products/time-pulse">Time Pulse</Navlink>
+              <Navlink href="/products/time-pulse">{t('products.timePulse')}</Navlink>
             </li>
             <li>
-              <Navlink href="/products/rts">RTS - Recruitment Tracking System</Navlink>
+              <Navlink href="/products/rts">{t('products.rts')}</Navlink>
             </li>
           </ul>
         </li>
@@ -100,7 +106,7 @@ const NavSection = ({ style, logo }: Props) => {
             role="button"
             onClick={(e) => handleToggleDropdown("service", e)}
           >
-            Services
+            {t('navigation.services')}
           </a>
           <ul className="sub-menu">
             <li className={dropdown.aiSolutions ? "rv-dropdown-active" : ""}>
@@ -109,29 +115,29 @@ const NavSection = ({ style, logo }: Props) => {
                 role="button"
                 onClick={(e) => handleToggleDropdown("aiSolutions", e)}
               >
-                AI Solutions
+                {t('services.aiSolutions')}
               </a>
               <ul className="sub-menu">
                 <li>
-                  <Navlink href="/services/ai-solutions">AI Solutions Home</Navlink>
+                  <Navlink href="/services/ai-solutions">{t('services.aiSolutionsHome')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/ai-solutions/ai-development">AI Development</Navlink>
+                  <Navlink href="/services/ai-solutions/ai-development">{t('services.aiDevelopment')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/ai-solutions/process-automation">Process Automation</Navlink>
+                  <Navlink href="/services/ai-solutions/process-automation">{t('services.processAutomation')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/ai-solutions/face-recognition">Face Recognition</Navlink>
+                  <Navlink href="/services/ai-solutions/face-recognition">{t('services.faceRecognition')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/ai-solutions/iot-solutions">IoT Solutions</Navlink>
+                  <Navlink href="/services/ai-solutions/iot-solutions">{t('services.iotSolutions')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/ai-solutions/deep-learning">Deep Learning</Navlink>
+                  <Navlink href="/services/ai-solutions/deep-learning">{t('services.deepLearning')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/ai-solutions/nlp-solutions">NLP Solutions</Navlink>
+                  <Navlink href="/services/ai-solutions/nlp-solutions">{t('services.nlpSolutions')}</Navlink>
                 </li>
               </ul>
             </li>
@@ -141,23 +147,23 @@ const NavSection = ({ style, logo }: Props) => {
                 role="button"
                 onClick={(e) => handleToggleDropdown("dataEngineering", e)}
               >
-                Data Engineering
+                {t('services.dataEngineering')}
               </a>
               <ul className="sub-menu">
                 <li>
-                  <Navlink href="/services/data-engineering">Data Engineering Home</Navlink>
+                  <Navlink href="/services/data-engineering">{t('services.dataEngineeringHome')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/data-engineering/data-analytics">Data Analytics</Navlink>
+                  <Navlink href="/services/data-engineering/data-analytics">{t('services.dataAnalytics')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/data-engineering/data-pipeline">Data Pipeline</Navlink>
+                  <Navlink href="/services/data-engineering/data-pipeline">{t('services.dataPipeline')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/data-engineering/data-science">Data Science</Navlink>
+                  <Navlink href="/services/data-engineering/data-science">{t('services.dataScience')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/data-engineering/cloud-data">Cloud Data</Navlink>
+                  <Navlink href="/services/data-engineering/cloud-data">{t('services.cloudData')}</Navlink>
                 </li>
               </ul>
             </li>
@@ -167,20 +173,20 @@ const NavSection = ({ style, logo }: Props) => {
                 role="button"
                 onClick={(e) => handleToggleDropdown("cloudServices", e)}
               >
-                Cloud Services
+                {t('services.cloudServices')}
               </a>
               <ul className="sub-menu">
                 <li>
-                  <Navlink href="/services/cloud-services">Cloud Services Home</Navlink>
+                  <Navlink href="/services/cloud-services">{t('services.cloudServicesHome')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cloud-services/aws-cloud">AWS Cloud</Navlink>
+                  <Navlink href="/services/cloud-services/aws-cloud">{t('services.awsCloud')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cloud-services/azure-cloud">Azure Cloud</Navlink>
+                  <Navlink href="/services/cloud-services/azure-cloud">{t('services.azureCloud')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cloud-services/gcp-cloud">GCP Cloud</Navlink>
+                  <Navlink href="/services/cloud-services/gcp-cloud">{t('services.gcpCloud')}</Navlink>
                 </li>
               </ul>
             </li>
@@ -190,23 +196,23 @@ const NavSection = ({ style, logo }: Props) => {
                 role="button"
                 onClick={(e) => handleToggleDropdown("cyberSecurity", e)}
               >
-                CyberSecurity
+                {t('services.cyberSecurity')}
               </a>
               <ul className="sub-menu cybersecurity-submenu">
                 <li>
-                  <Navlink href="/services/cybersecurity">CyberSecurity Home</Navlink>
+                  <Navlink href="/services/cybersecurity">{t('services.cyberSecurityHome')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cybersecurity#soc-as-a-service" className="cybersecurity-link">SOC-as-a-Service</Navlink>
+                  <Navlink href="/services/cybersecurity#soc-as-a-service" className="cybersecurity-link">{t('services.socAsAService')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cybersecurity#incident-response" className="cybersecurity-link">Incident Response</Navlink>
+                  <Navlink href="/services/cybersecurity#incident-response" className="cybersecurity-link">{t('services.incidentResponse')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cybersecurity#penetration-testing" className="cybersecurity-link">Penetration Testing</Navlink>
+                  <Navlink href="/services/cybersecurity#penetration-testing" className="cybersecurity-link">{t('services.penetratingTesting')}</Navlink>
                 </li>
                 <li>
-                  <Navlink href="/services/cybersecurity#security-advisory" className="cybersecurity-link">Security Advisory</Navlink>
+                  <Navlink href="/services/cybersecurity#security-advisory" className="cybersecurity-link">{t('services.securityAdvisory')}</Navlink>
                 </li>
               </ul>
             </li>
@@ -214,11 +220,11 @@ const NavSection = ({ style, logo }: Props) => {
         </li>
 
         <li>
-          <Navlink href="#">Use Cases</Navlink>
+          <Navlink href="#">{t('navigation.useCases')}</Navlink>
         </li>
 
         <li>
-          <Navlink href="/contact">Contact</Navlink>
+          <Navlink href="/contact">{t('navigation.contact')}</Navlink>
         </li>
       </ul>
     </div>

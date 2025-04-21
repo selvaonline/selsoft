@@ -5,7 +5,7 @@ import InnerLayout from "@/components/layout/InnerLayout";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
-  faTargetArrow, 
+  faBullseye, 
   faRocket, 
   faBuilding, 
   faUserShield, 
@@ -39,7 +39,7 @@ const TimePulsePage = () => {
                   <div className="card mb-5 shadow-sm">
                     <div className="card-header bg-primary text-white">
                       <div className="d-flex align-items-center">
-                        <FontAwesomeIcon icon={faTargetArrow} className="me-3 fs-4" />
+                        <FontAwesomeIcon icon={faBullseye} className="me-3 fs-4" />
                         <h2 className="h3 mb-0">Objective</h2>
                       </div>
                     </div>

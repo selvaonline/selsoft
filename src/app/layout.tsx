@@ -10,6 +10,7 @@ import "../../public/assets/scss/fix-mobile-blur.css";
 import "../../public/assets/scss/fix-dropdown.css";
 import "../../public/assets/scss/fix-homepage-alignment.css";
 import "../styles/submenu-fix.css";
+import "../styles/loader.css";
 import {
   inter,
   mulish,
@@ -20,6 +21,8 @@ import {
 } from "./font";
 import { ToastContainer } from "react-toastify";
 import { Providers } from "@/redux/provider";
+import { LanguageProvider } from "@/context/LanguageContext";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -31,8 +34,10 @@ export default function RootLayout({
         className={`${inter.variable} ${mulish.variable} ${newsreader.variable} ${sahitya.variable} ${philosopher.variable} ${oldenburg.variable}`}
       >
         <Providers>
-          {children}
-          <ToastContainer />
+          <LanguageProvider>
+            {children}
+            <ToastContainer />
+          </LanguageProvider>
         </Providers>
       </body>
     </html>

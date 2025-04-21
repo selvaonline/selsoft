@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useAppDispatch } from "@/redux/hooks";
 import { toggleSearchModalOpen } from "@/redux/features/searchModalSlice";
 import { usePathname } from "next/navigation";
+import { useLanguage } from "../../context/LanguageContext";
 
 const HeaderSection7 = () => {
   const pathname = usePathname();
@@ -72,6 +73,9 @@ const HeaderSection7 = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [closeSidebar]);
+
+  const { language, changeLanguage, languageNames } = useLanguage();
+
   return (
     <header className="rv-14-header rv-1-header p-0">
       <div className="rv-10-header-top rv-14-header-top">
@@ -98,12 +102,17 @@ const HeaderSection7 = () => {
                 action="#"
                 className="rv-7-header-top__actions rv-14-header-top-form"
               >
-                <select name="language" id="rv-7-lang">
-                  <option value="English">English</option>
-                  <option value="Spanish">Spanish</option>
-                  <option value="French">French</option>
-                  <option value="Korean">Korean</option>
-                  <option value="Bangla">Bangla</option>
+                <select 
+                  name="language" 
+                  id="rv-7-lang"
+                  value={language}
+                  onChange={(e) => changeLanguage(e.target.value as any)}
+                >
+                  {Object.entries(languageNames).map(([code, name]) => (
+                    <option key={code} value={code}>
+                      {name}
+                    </option>
+                  ))}
                 </select>
               </form>
             </div>
