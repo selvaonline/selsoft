@@ -22,7 +22,7 @@ const ServiceSection6 = () => {
             </div>
 
             <div className="row g-4 mb-5">
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-3">
                 <div className="service-card p-4 text-center h-100 shadow-sm rounded bg-white" style={{ transition: "all 0.3s ease" }}>
                   <div className="icon-wrapper mb-4">
                     <span className="d-inline-block rounded-circle bg-primary bg-opacity-10 p-3" style={{ width: "80px", height: "80px" }}>
@@ -38,7 +38,7 @@ const ServiceSection6 = () => {
                 </div>
               </div>
               
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-3">
                 <div className="service-card p-4 text-center h-100 shadow-sm rounded bg-white" style={{ transition: "all 0.3s ease" }}>
                   <div className="icon-wrapper mb-4">
                     <span className="d-inline-block rounded-circle bg-primary bg-opacity-10 p-3" style={{ width: "80px", height: "80px" }}>
@@ -54,7 +54,7 @@ const ServiceSection6 = () => {
                 </div>
               </div>
               
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-3">
                 <div className="service-card p-4 text-center h-100 shadow-sm rounded bg-white" style={{ transition: "all 0.3s ease" }}>
                   <div className="icon-wrapper mb-4">
                     <span className="d-inline-block rounded-circle bg-primary bg-opacity-10 p-3" style={{ width: "80px", height: "80px" }}>
@@ -67,6 +67,22 @@ const ServiceSection6 = () => {
                     cloud computing solutions.
                   </p>
                   <Link href="/services/cloud-services" className="btn btn-outline-primary px-4">Learn More</Link>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-3">
+                <div className="service-card p-4 text-center h-100 shadow-sm rounded bg-white" style={{ transition: "all 0.3s ease" }}>
+                  <div className="icon-wrapper mb-4">
+                    <span className="d-inline-block rounded-circle bg-primary bg-opacity-10 p-3" style={{ width: "80px", height: "80px" }}>
+                      <i className="fa-solid fa-shield-halved fs-1 text-primary"></i>
+                    </span>
+                  </div>
+                  <h3 className="h4 mb-3 fw-bold">CyberSecurity</h3>
+                  <p className="mb-4 text-muted">
+                    Protect your business with comprehensive security solutions including SOC-as-a-Service, 
+                    incident response, and penetration testing.
+                  </p>
+                  <Link href="/services/cybersecurity" className="btn btn-outline-primary px-4">Learn More</Link>
                 </div>
               </div>
             </div>

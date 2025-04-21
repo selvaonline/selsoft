@@ -1,6 +1,5 @@
 import AboutSection6 from "@/components/about/AboutSection6";
 import BannerSection8 from "@/components/banner/BannerSection8";
-import BlogSection6 from "@/components/blog/BlogSection6";
 import CtaSection from "@/components/cta/CtaSection";
 import FooterSection8 from "@/components/footer/FooterSection8";
 import HeaderSection7 from "@/components/header/HeaderSection7";
@@ -8,13 +7,13 @@ import SearchFormModal from "@/components/modal/SearchFormModal";
 import CaseStudySection from "@/components/project/CaseStudySection";
 import ServiceSection6 from "@/components/service/ServiceSection6";
 import StatSection from "@/components/stats/StatSection";
-import TestimonialSection5 from "@/components/testimonial/TestimonialSection5";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Selsoft - AI, Data & Cloud Solutions",
   description: "Driving the future of technology with innovations in AI, Data, and Cloud solutions",
 };
+
 export default function Home() {
   return (
     <main className="rv-4-body">
@@ -25,8 +24,6 @@ export default function Home() {
       <StatSection />
       <CtaSection />
       <CaseStudySection />
-      <TestimonialSection5 />
-      <BlogSection6 />
       <FooterSection8 />
       {/* Modal */}
       <SearchFormModal />

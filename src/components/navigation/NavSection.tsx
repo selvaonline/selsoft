@@ -12,6 +12,7 @@ type DropdownState = {
   aiSolutions: boolean;
   dataEngineering: boolean;
   cloudServices: boolean;
+  cyberSecurity: boolean;
   blog: boolean;
 };
 const NavSection = ({ style, logo }: Props) => {
@@ -22,6 +23,7 @@ const NavSection = ({ style, logo }: Props) => {
     aiSolutions: false,
     dataEngineering: false,
     cloudServices: false,
+    cyberSecurity: false,
     blog: false,
   });
 
@@ -163,6 +165,32 @@ const NavSection = ({ style, logo }: Props) => {
                 </li>
                 <li>
                   <Navlink href="/services/cloud-services/gcp-cloud">GCP Cloud</Navlink>
+                </li>
+              </ul>
+            </li>
+            <li className={dropdown.cyberSecurity ? "rv-dropdown-active" : ""}>
+              <a
+                className="dropdown-btn"
+                role="button"
+                onClick={(e) => handleToggleDropdown("cyberSecurity", e)}
+              >
+                CyberSecurity
+              </a>
+              <ul className="sub-menu">
+                <li>
+                  <Navlink href="/services/cybersecurity">Overview</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/cybersecurity#soc-as-a-service">SOC-as-a-Service</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/cybersecurity#incident-response">Incident Response</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/cybersecurity#penetration-testing">Penetration Testing</Navlink>
+                </li>
+                <li>
+                  <Navlink href="/services/cybersecurity#security-advisory">Security Advisory</Navlink>
                 </li>
               </ul>
             </li>

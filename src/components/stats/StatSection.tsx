@@ -11,7 +11,7 @@ const StatSection = () => {
               <h6 className="rv-14-stat__title rv-text-anime">
                 Business Solution
               </h6>
-              <h3 className="rv-14-stat__number rv-text-anime">2450+</h3>
+              <h3 className="rv-14-stat__number rv-text-anime">50+</h3>
             </div>
           </div>
           <div className="col">
@@ -19,13 +19,13 @@ const StatSection = () => {
               <h6 className="rv-14-stat__title rv-text-anime">
                 Years Experience
               </h6>
-              <h3 className="rv-14-stat__number rv-text-anime">25+</h3>
+              <h3 className="rv-14-stat__number rv-text-anime">20+</h3>
             </div>
           </div>
           <div className="col">
             <div className="rv-14-stat text-center">
               <h6 className="rv-14-stat__title rv-text-anime">Expert Member</h6>
-              <h3 className="rv-14-stat__number rv-text-anime">134+</h3>
+              <h3 className="rv-14-stat__number rv-text-anime">50+</h3>
             </div>
           </div>
           <div className="col">
@@ -33,7 +33,7 @@ const StatSection = () => {
               <h6 className="rv-14-stat__title rv-text-anime">
                 Satisfied Clients
               </h6>
-              <h3 className="rv-14-stat__number rv-text-anime">864+</h3>
+              <h3 className="rv-14-stat__number rv-text-anime">25+</h3>
             </div>
           </div>
         </div>

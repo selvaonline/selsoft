@@ -122,9 +122,9 @@ const HeaderSection7 = () => {
               <div className="rv-8-header__logo">
                 <Link href="/">
                   <img 
-                    src="/assets/img/logo-main.png" 
+                    src="/assets/img/logo-main-white.png" 
                     alt="Selsoft Logo" 
-                    style={{ maxHeight: "60px", width: "auto" }}
+                    style={{ height: "auto", width: "auto", maxHeight: "90px" }}
                   />
                 </Link>
               </div>
@@ -140,9 +140,9 @@ const HeaderSection7 = () => {
                 <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
                   <Link href="/" className="logo-container">
                     <img 
-                      src="/assets/img/logo-main.png" 
+                      src="/assets/img/logo-main-white.png" 
                       alt="Selsoft Logo" 
-                      style={{ maxHeight: "40px", width: "auto" }} 
+                      style={{ height: "auto", width: "auto", maxHeight: "70px" }} 
                     />
                   </Link>
                   <button

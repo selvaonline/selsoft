@@ -17,7 +17,7 @@
   left: 0;
   min-width: 250px;
   display: none;
-  background-color: #fff;
+  background-color: #0b2154; /* Dark blue background */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 0;
@@ -46,6 +46,7 @@
   left: 100%;
   margin-top: -10px; /* Align with parent item */
   margin-left: 10px; /* Increased space between parent and child dropdown */
+  background-color: #0b2154; /* Ensure nested menus also have dark background */
 }
 
 .dropdown-submenu:hover > .dropdown-menu {
@@ -82,17 +83,33 @@
   position: relative;
 }
 
-.dropdown-menu .nav-link {
+.dropdown-menu .nav-link, 
+.dropdown-menu a,
+.sub-menu a,
+.sub-menu .nav-link {
   padding: 10px 20px;
   display: block;
-  color: #333;
+  color: #ffffff !important; /* Force white text color */
   text-decoration: none;
   white-space: nowrap;
   transition: background-color 0.2s ease;
+  background-color: transparent !important; /* Force transparent background */
 }
 
-.dropdown-menu .nav-link:hover {
-  background-color: #f8f9fa;
+.dropdown-menu .nav-link:hover,
+.dropdown-menu a:hover,
+.sub-menu a:hover,
+.sub-menu .nav-link:hover {
+  background-color: #1a3a7a !important; /* Force hover background color */
+  color: #ffffff !important; /* Force hover text color */
+}
+
+/* Ensure all submenu elements have dark background */
+.sub-menu {
+  background-color: #0b2154 !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 0;
 }
 
 /* Mobile menu adjustments */
@@ -107,12 +124,14 @@
     visibility: visible;
     pointer-events: auto;
     display: none;
+    background-color: #0b2154;
   }
 
   .dropdown-submenu .dropdown-menu {
     left: 0;
     padding-left: 15px;
     margin-left: 0;
+    background-color: #0b2154;
   }
   
   /* Show mobile dropdown when parent is clicked/tapped */
