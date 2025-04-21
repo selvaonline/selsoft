@@ -1,0 +1,42 @@
+/* Mobile menu fixes */
+@media (max-width: 991px) {
+  /* Add padding to sidebar */
+  .rv-1-header-nav__sidebar {
+    padding: 0 15px !important;
+    max-width: 85% !important;
+    width: 320px !important;
+  }
+
+  /* Add padding to dropdown menus */
+  .rv-1-header-nav__sidebar .sub-menu {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Ensure text doesn't overflow */
+  .rv-1-header-nav__sidebar a,
+  .rv-1-header-nav__sidebar .dropdown-btn {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    padding-right: 25px !important;
+  }
+
+  /* Fix sidebar header spacing */
+  .sidebar-heading {
+    padding: 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  /* Ensure dropdown arrows are properly positioned */
+  .dropdown-btn:after {
+    right: 0 !important;
+  }
+
+  /* Improve nested menu indentation */
+  .sub-menu .sub-menu {
+    margin-left: 10px !important;
+  }
+}

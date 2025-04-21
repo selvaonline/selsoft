@@ -13,6 +13,7 @@ import "../styles/submenu-fix.css";
 import "../styles/loader.css";
 import "../styles/button-fix.css";
 import "../styles/service-buttons.css";
+import "../styles/mobile-menu-fix.css";
 import {
   inter,
   mulish,
