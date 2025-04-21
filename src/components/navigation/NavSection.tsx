@@ -13,6 +13,7 @@ type DropdownState = {
   dataEngineering: boolean;
   cloudServices: boolean;
   cyberSecurity: boolean;
+  products: boolean;
   blog: boolean;
 };
 const NavSection = ({ style, logo }: Props) => {
@@ -24,6 +25,7 @@ const NavSection = ({ style, logo }: Props) => {
     dataEngineering: false,
     cloudServices: false,
     cyberSecurity: false,
+    products: false,
     blog: false,
   });
 
@@ -68,8 +70,22 @@ const NavSection = ({ style, logo }: Props) => {
           </ul>
         </li>
 
-        <li>
-          <Navlink href="/industries">Industries</Navlink>
+        <li className={dropdown.products ? "rv-dropdown-active" : ""}>
+          <a
+            className="dropdown-btn"
+            role="button"
+            onClick={(e) => handleToggleDropdown("products", e)}
+          >
+            Products
+          </a>
+          <ul className="sub-menu">
+            <li>
+              <Navlink href="/products/time-pulse">Time Pulse</Navlink>
+            </li>
+            <li>
+              <Navlink href="/products/rts">RTS - Recruitment Tracking System</Navlink>
+            </li>
+          </ul>
         </li>
         {logo && (
           <li className="d-none d-lg-block">

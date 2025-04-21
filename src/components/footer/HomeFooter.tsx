@@ -69,7 +69,7 @@ const HomeFooter = () => {
                         <Link href="/contact">Contact Us</Link>
                       </li>
                       <li>
-                        <Link href="/industries">Industries</Link>
+                        <Link href="/products/time-pulse">Products</Link>
                       </li>
                     </ul>
                   </div>
