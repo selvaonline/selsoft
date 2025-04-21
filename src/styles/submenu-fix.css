@@ -9,6 +9,8 @@ ul.sub-menu {
   background-color: #0b2154 !important;
   border: none !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+  padding: 12px 0 !important; /* Increased top/bottom padding */
+  min-width: 250px !important; /* Ensure menus have enough width */
 }
 
 /* Target all menu links with high specificity */
@@ -29,6 +31,9 @@ ul.sub-menu.cybersecurity-submenu li a,
   background-color: transparent !important;
   font-weight: normal !important;
   text-shadow: none !important;
+  padding: 12px 20px !important; /* Increased padding for menu items */
+  line-height: 1.5 !important; /* Improved line height */
+  font-size: 15px !important; /* Slightly larger font size */
 }
 
 /* Target hover states with high specificity */
@@ -49,6 +54,22 @@ ul.sub-menu.cybersecurity-submenu li a:hover,
   color: #ffffff !important;
 }
 
+/* Add spacing between menu items */
+.dropdown-menu li,
+.sub-menu li,
+.cybersecurity-submenu li,
+ul.sub-menu li,
+ul.sub-menu.cybersecurity-submenu li,
+.cybersecurity-menu .sub-menu li,
+.cybersecurity-menu ul.sub-menu li,
+.rv-8-header__nav .cybersecurity-menu ul.sub-menu li,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu li,
+.rv-8-header__nav li.cybersecurity-menu ul.sub-menu.cybersecurity-submenu li,
+.rv-8-header__nav ul li ul li {
+  background-color: #0b2154 !important;
+  margin: 2px 0 !important; /* Add vertical spacing between items */
+}
+
 /* Specific fix for CyberSecurity submenu with maximum specificity */
 .cybersecurity-menu .sub-menu,
 .cybersecurity-menu ul.sub-menu,
@@ -61,6 +82,7 @@ li.cybersecurity-menu ul.sub-menu,
   background-color: #0b2154 !important;
   border: none !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+  padding: 12px 0 !important; /* Increased padding */
 }
 
 /* Force all menu items to have proper styling with maximum specificity */
@@ -77,18 +99,7 @@ li.cybersecurity-menu ul.sub-menu,
   background-color: transparent !important;
   font-weight: normal !important;
   text-shadow: none !important;
-}
-
-/* Override any theme-specific styles with maximum specificity */
-.rv-8-header__nav .dropdown-menu,
-.rv-8-header__nav .sub-menu,
-.rv-8-header__nav .cybersecurity-menu .sub-menu,
-.rv-8-header__nav .cybersecurity-menu ul.sub-menu,
-.rv-8-header__nav li.cybersecurity-menu ul.sub-menu,
-.rv-8-header__nav li.cybersecurity-menu ul.sub-menu.cybersecurity-submenu,
-.rv-8-header__nav ul.dropdown-menu,
-.rv-8-header__nav ul.sub-menu {
-  background-color: #0b2154 !important;
+  padding: 12px 20px !important; /* Increased padding */
 }
 
 /* Target specific menu items by text content */
@@ -248,5 +259,17 @@ li > .sub-menu > li > .sub-menu {
   top: 0;
   left: 100%;
   margin-top: 0;
-  margin-left: 0;
+  margin-left: 5px; /* Add a small gap between parent and child menu */
+}
+
+/* Add spacing between main navigation items */
+.rv-8-header__nav ul.navbar-nav > li {
+  margin: 0 5px !important;
+}
+
+/* Improve spacing in the main navigation */
+.rv-8-header__nav .navbar-nav > li > a,
+.rv-8-header__nav .navbar-nav > li > .nav-link {
+  padding: 15px 15px !important;
+  margin: 0 5px !important;
 }
