@@ -1,0 +1,118 @@
+{
+  "navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "services": "服务",
+    "useCases": "使用案例",
+    "contact": "联系我们",
+    "leadership": "领导团队",
+    "naicsSic": "NAICS/SIC",
+    "affiliations": "合作伙伴"
+  },
+  "services": {
+    "aiSolutions": "AI解决方案",
+    "dataEngineering": "数据工程",
+    "cloudServices": "云服务",
+    "cyberSecurity": "网络安全",
+    "aiSolutionsHome": "AI解决方案主页",
+    "aiDevelopment": "AI开发",
+    "processAutomation": "流程自动化",
+    "faceRecognition": "人脸识别",
+    "iotSolutions": "物联网解决方案",
+    "deepLearning": "深度学习",
+    "nlpSolutions": "自然语言处理解决方案",
+    "dataEngineeringHome": "数据工程主页",
+    "dataAnalytics": "数据分析",
+    "dataPipeline": "数据管道",
+    "dataScience": "数据科学",
+    "cloudData": "云数据",
+    "cloudServicesHome": "云服务主页",
+    "awsCloud": "AWS云",
+    "azureCloud": "Azure云",
+    "gcpCloud": "GCP云",
+    "cyberSecurityHome": "网络安全主页",
+    "socAsAService": "安全运营中心即服务",
+    "incidentResponse": "事件响应",
+    "penetratingTesting": "渗透测试",
+    "securityAdvisory": "安全咨询"
+  },
+  "products": {
+    "timePulse": "时间脉冲",
+    "rts": "RTS - 招聘跟踪系统",
+    "timePulseDescription": "为人员配置和就业公司设计的先进多租户SaaS解决方案",
+    "rtsDescription": "管理整个招聘流程的综合解决方案"
+  },
+  "contact": {
+    "getInTouch": "联系我们",
+    "contactUs": "联系我们",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "电话",
+    "message": "留言",
+    "submit": "提交",
+    "address": "地址",
+    "usAddress": "美国办公室",
+    "indiaAddress": "印度办公室"
+  },
+  "footer": {
+    "allRightsReserved": "版权所有",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  },
+  "home": {
+    "welcome": "欢迎来到Selsoft",
+    "heroTitle": "创新技术解决方案",
+    "heroSubtitle": "通过尖端技术解决方案赋能企业",
+    "learnMore": "了解更多",
+    "ourServices": "我们的服务",
+    "featuredProducts": "特色产品",
+    "clientTestimonials": "客户评价",
+    "latestNews": "最新消息"
+  },
+  "about": {
+    "aboutUs": "关于我们",
+    "ourMission": "我们的使命",
+    "ourVision": "我们的愿景",
+    "ourValues": "我们的价值观",
+    "ourTeam": "我们的团队",
+    "ourHistory": "我们的历史",
+    "missionStatement": "提供创新的技术解决方案，使企业能够实现其全部潜力。",
+    "visionStatement": "成为推动业务转型和成功的技术解决方案的领先提供商。"
+  },
+  "timePulse": {
+    "objective": "目标",
+    "coreFeatures": "核心功能",
+    "timesheetManagement": "工时表收集与管理",
+    "invoiceGeneration": "发票生成与供应商协作",
+    "dataReconciliation": "终端客户数据对账",
+    "tenantCustomization": "租户特定定制",
+    "multiTenancy": "多租户",
+    "rolesAccess": "角色与访问控制(RBAC)",
+    "sowManagement": "灵活的工作说明书管理",
+    "timesheetSubmission": "工时表提交",
+    "invoiceAutomation": "发票自动化",
+    "reconciliationEngine": "对账引擎",
+    "notificationSystem": "通知系统",
+    "reportingDashboards": "报告与仪表板",
+    "elevateCapabilities": "通过Selsoft的Time Pulse提升您的人员配置管理能力，这是您精确、可扩展和可定制的人员配置工作流程的完整SaaS解决方案。"
+  },
+  "rts": {
+    "overview": "概述",
+    "keyFeatures": "主要功能",
+    "candidateManagement": "候选人管理",
+    "jobRequisitionTracking": "职位需求跟踪",
+    "analyticsReporting": "分析与报告",
+    "interviewScheduling": "面试安排",
+    "clientPortal": "客户门户",
+    "transformRecruitment": "通过Selsoft的RTS转变您的招聘流程 - 为现代人员配置和人力资源团队提供的完整解决方案。"
+  },
+  "buttons": {
+    "requestDemo": "申请演示",
+    "contactForDemo": "联系我们获取演示",
+    "getStarted": "开始使用",
+    "learnMore": "了解更多",
+    "viewDetails": "查看详情",
+    "readMore": "阅读更多"
+  }
+}

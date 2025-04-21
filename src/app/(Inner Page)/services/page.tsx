@@ -39,7 +39,7 @@ const ServicesPage = () => {
                           Harness the power of artificial intelligence to solve complex business challenges 
                           and gain competitive advantage.
                         </p>
-                        <Link href="/services/ai-solutions" className="btn btn-outline-primary">Learn More</Link>
+                        <Link href="/services/ai-solutions" className="btn btn-primary">Learn More</Link>
                       </div>
                     </div>
                     
@@ -53,7 +53,7 @@ const ServicesPage = () => {
                           Transform your raw data into valuable insights with our comprehensive 
                           data engineering solutions.
                         </p>
-                        <Link href="/services/data-engineering" className="btn btn-outline-primary">Learn More</Link>
+                        <Link href="/services/data-engineering" className="btn btn-primary">Learn More</Link>
                       </div>
                     </div>
                     
@@ -67,7 +67,7 @@ const ServicesPage = () => {
                           Scale efficiently and innovate rapidly with our secure and reliable 
                           cloud computing solutions.
                         </p>
-                        <Link href="/services/cloud-services" className="btn btn-outline-primary">Learn More</Link>
+                        <Link href="/services/cloud-services" className="btn btn-primary">Learn More</Link>
                       </div>
                     </div>
                   </div>

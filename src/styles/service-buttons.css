@@ -1,0 +1,50 @@
+/* Force button visibility */
+.service-card a.btn,
+.service-card .btn,
+.rv-inner-service-content .btn,
+.rv-14-services .btn,
+[class*="col-"] .btn {
+  display: inline-block !important;
+  color: #fff !important;
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  border-radius: 0.25rem !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, 
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+}
+
+.service-card a.btn:hover,
+.service-card .btn:hover,
+.rv-inner-service-content .btn:hover,
+.rv-14-services .btn:hover,
+[class*="col-"] .btn:hover {
+  background-color: #0b5ed7 !important;
+  border-color: #0a58ca !important;
+}
+
+/* Ensure text is visible */
+.btn-outline-primary {
+  color: #0d6efd !important;
+  background-color: transparent !important;
+  border-color: #0d6efd !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #0d6efd !important;
+}
+
+/* Force visibility for any buttons that might be hidden */
+a[href*="/services/"].btn {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}

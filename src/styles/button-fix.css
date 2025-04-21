@@ -1,0 +1,10 @@
+.btn-outline-primary {
+  color: #0d6efd !important; /* Primary blue color for text */
+  border-color: #0d6efd !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff !important; /* White text on hover */
+  background-color: #0d6efd !important; /* Primary blue background on hover */
+}

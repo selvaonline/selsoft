@@ -2,7 +2,7 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 
-type Language = 'en' | 'es' | 'fr' | 'ko' | 'bn' | 'ta' | 'hi' | 'te';
+type Language = 'en' | 'es' | 'fr' | 'ko' | 'bn' | 'ta' | 'hi' | 'te' | 'zh';
 
 type LanguageContextType = {
   language: Language;
@@ -18,7 +18,8 @@ const languageNames: Record<Language, string> = {
   bn: 'Bangla',
   ta: 'Tamil',
   hi: 'Hindi',
-  te: 'Telugu'
+  te: 'Telugu',
+  zh: 'Chinese'
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);

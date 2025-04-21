@@ -34,7 +34,7 @@ const ServiceSection6 = () => {
                     Harness the power of artificial intelligence to solve complex business challenges 
                     and gain competitive advantage.
                   </p>
-                  <Link href="/services/ai-solutions" className="btn btn-outline-primary px-4">Learn More</Link>
+                  <Link href="/services/ai-solutions" className="btn btn-primary px-4">Learn More</Link>
                 </div>
               </div>
               
@@ -50,7 +50,7 @@ const ServiceSection6 = () => {
                     Transform your raw data into valuable insights with our comprehensive 
                     data engineering solutions.
                   </p>
-                  <Link href="/services/data-engineering" className="btn btn-outline-primary px-4">Learn More</Link>
+                  <Link href="/services/data-engineering" className="btn btn-primary px-4">Learn More</Link>
                 </div>
               </div>
               
@@ -66,7 +66,7 @@ const ServiceSection6 = () => {
                     Scale efficiently and innovate rapidly with our secure and reliable 
                     cloud computing solutions.
                   </p>
-                  <Link href="/services/cloud-services" className="btn btn-outline-primary px-4">Learn More</Link>
+                  <Link href="/services/cloud-services" className="btn btn-primary px-4">Learn More</Link>
                 </div>
               </div>
 
@@ -82,7 +82,7 @@ const ServiceSection6 = () => {
                     Protect your business with comprehensive security solutions including SOC-as-a-Service, 
                     incident response, and penetration testing.
                   </p>
-                  <Link href="/services/cybersecurity" className="btn btn-outline-primary px-4">Learn More</Link>
+                  <Link href="/services/cybersecurity" className="btn btn-primary px-4">Learn More</Link>
                 </div>
               </div>
             </div>

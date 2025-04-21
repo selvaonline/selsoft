@@ -11,6 +11,8 @@ import "../../public/assets/scss/fix-dropdown.css";
 import "../../public/assets/scss/fix-homepage-alignment.css";
 import "../styles/submenu-fix.css";
 import "../styles/loader.css";
+import "../styles/button-fix.css";
+import "../styles/service-buttons.css";
 import {
   inter,
   mulish,
