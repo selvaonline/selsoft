@@ -14,11 +14,34 @@
     "aiSolutions": "Soluciones de IA",
     "dataEngineering": "Ingeniería de Datos",
     "cloudServices": "Servicios en la Nube",
-    "cyberSecurity": "Ciberseguridad"
+    "cyberSecurity": "Ciberseguridad",
+    "aiSolutionsHome": "Inicio de Soluciones de IA",
+    "aiDevelopment": "Desarrollo de IA",
+    "processAutomation": "Automatización de Procesos",
+    "faceRecognition": "Reconocimiento Facial",
+    "iotSolutions": "Soluciones IoT",
+    "deepLearning": "Aprendizaje Profundo",
+    "nlpSolutions": "Soluciones de PLN",
+    "dataEngineeringHome": "Inicio de Ingeniería de Datos",
+    "dataAnalytics": "Análisis de Datos",
+    "dataPipeline": "Pipeline de Datos",
+    "dataScience": "Ciencia de Datos",
+    "cloudData": "Datos en la Nube",
+    "cloudServicesHome": "Inicio de Servicios en la Nube",
+    "awsCloud": "Nube AWS",
+    "azureCloud": "Nube Azure",
+    "gcpCloud": "Nube GCP",
+    "cyberSecurityHome": "Inicio de Ciberseguridad",
+    "socAsAService": "SOC como Servicio",
+    "incidentResponse": "Respuesta a Incidentes",
+    "penetratingTesting": "Pruebas de Penetración",
+    "securityAdvisory": "Asesoría de Seguridad"
   },
   "products": {
     "timePulse": "Time Pulse",
-    "rts": "RTS - Sistema de Seguimiento de Reclutamiento"
+    "rts": "RTS - Sistema de Seguimiento de Reclutamiento",
+    "timePulseDescription": "Solución SaaS multiinquilino avanzada para empresas de personal y empleo",
+    "rtsDescription": "Solución integral para gestionar todo su proceso de reclutamiento"
   },
   "contact": {
     "getInTouch": "Ponerse en Contacto",
@@ -27,11 +50,69 @@
     "email": "Correo Electrónico",
     "phone": "Teléfono",
     "message": "Mensaje",
-    "submit": "Enviar"
+    "submit": "Enviar",
+    "address": "Dirección",
+    "usAddress": "Oficina en EE.UU.",
+    "indiaAddress": "Oficina en India"
   },
   "footer": {
     "allRightsReserved": "Todos los Derechos Reservados",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio"
+  },
+  "home": {
+    "welcome": "Bienvenido a Selsoft",
+    "heroTitle": "Soluciones Tecnológicas Innovadoras",
+    "heroSubtitle": "Potenciando empresas con soluciones tecnológicas de vanguardia",
+    "learnMore": "Más Información",
+    "ourServices": "Nuestros Servicios",
+    "featuredProducts": "Productos Destacados",
+    "clientTestimonials": "Testimonios de Clientes",
+    "latestNews": "Últimas Noticias"
+  },
+  "about": {
+    "aboutUs": "Sobre Nosotros",
+    "ourMission": "Nuestra Misión",
+    "ourVision": "Nuestra Visión",
+    "ourValues": "Nuestros Valores",
+    "ourTeam": "Nuestro Equipo",
+    "ourHistory": "Nuestra Historia",
+    "missionStatement": "Ofrecer soluciones tecnológicas innovadoras que permitan a las empresas alcanzar su máximo potencial.",
+    "visionStatement": "Ser el proveedor líder de soluciones tecnológicas que impulsen la transformación y el éxito empresarial."
+  },
+  "timePulse": {
+    "objective": "Objetivo",
+    "coreFeatures": "Características Principales",
+    "timesheetManagement": "Recopilación y Gestión de Hojas de Tiempo",
+    "invoiceGeneration": "Generación de Facturas y Colaboración con Proveedores",
+    "dataReconciliation": "Reconciliación de Datos del Cliente Final",
+    "tenantCustomization": "Personalización Específica por Inquilino",
+    "multiTenancy": "Multi-Inquilino",
+    "rolesAccess": "Roles y Control de Acceso (RBAC)",
+    "sowManagement": "Gestión Flexible de SOW",
+    "timesheetSubmission": "Envío de Hojas de Tiempo",
+    "invoiceAutomation": "Automatización de Facturas",
+    "reconciliationEngine": "Motor de Reconciliación",
+    "notificationSystem": "Sistema de Notificaciones",
+    "reportingDashboards": "Informes y Paneles",
+    "elevateCapabilities": "Eleve sus capacidades de gestión de personal con Time Pulse de Selsoft, su solución SaaS completa para flujos de trabajo de personal precisos, escalables y personalizables."
+  },
+  "rts": {
+    "overview": "Descripción General",
+    "keyFeatures": "Características Clave",
+    "candidateManagement": "Gestión de Candidatos",
+    "jobRequisitionTracking": "Seguimiento de Requisiciones de Empleo",
+    "analyticsReporting": "Análisis e Informes",
+    "interviewScheduling": "Programación de Entrevistas",
+    "clientPortal": "Portal del Cliente",
+    "transformRecruitment": "Transforme su proceso de reclutamiento con RTS de Selsoft - la solución completa para equipos modernos de personal y RRHH."
+  },
+  "buttons": {
+    "requestDemo": "Solicitar una Demo",
+    "contactForDemo": "Contáctenos para una Demo",
+    "getStarted": "Comenzar",
+    "learnMore": "Más Información",
+    "viewDetails": "Ver Detalles",
+    "readMore": "Leer Más"
   }
 }

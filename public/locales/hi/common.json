@@ -1,0 +1,118 @@
+{
+  "navigation": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "products": "उत्पाद",
+    "services": "सेवाएँ",
+    "useCases": "उपयोग के मामले",
+    "contact": "संपर्क",
+    "leadership": "नेतृत्व",
+    "naicsSic": "NAICS/SIC",
+    "affiliations": "संबद्धताएँ"
+  },
+  "services": {
+    "aiSolutions": "AI समाधान",
+    "dataEngineering": "डेटा इंजीनियरिंग",
+    "cloudServices": "क्लाउड सेवाएँ",
+    "cyberSecurity": "साइबर सुरक्षा",
+    "aiSolutionsHome": "AI समाधान होम",
+    "aiDevelopment": "AI विकास",
+    "processAutomation": "प्रक्रिया स्वचालन",
+    "faceRecognition": "चेहरा पहचान",
+    "iotSolutions": "IoT समाधान",
+    "deepLearning": "डीप लर्निंग",
+    "nlpSolutions": "NLP समाधान",
+    "dataEngineeringHome": "डेटा इंजीनियरिंग होम",
+    "dataAnalytics": "डेटा एनालिटिक्स",
+    "dataPipeline": "डेटा पाइपलाइन",
+    "dataScience": "डेटा साइंस",
+    "cloudData": "क्लाउड डेटा",
+    "cloudServicesHome": "क्लाउड सेवाएँ होम",
+    "awsCloud": "AWS क्लाउड",
+    "azureCloud": "Azure क्लाउड",
+    "gcpCloud": "GCP क्लाउड",
+    "cyberSecurityHome": "साइबर सुरक्षा होम",
+    "socAsAService": "सेवा के रूप में SOC",
+    "incidentResponse": "घटना प्रतिक्रिया",
+    "penetratingTesting": "पेनेट्रेशन टेस्टिंग",
+    "securityAdvisory": "सुरक्षा सलाहकार"
+  },
+  "products": {
+    "timePulse": "टाइम पल्स",
+    "rts": "RTS - भर्ती ट्रैकिंग सिस्टम",
+    "timePulseDescription": "स्टाफिंग और रोजगार फर्मों के लिए उन्नत मल्टी-टेनेंट SaaS समाधान",
+    "rtsDescription": "आपकी पूरी भर्ती प्रक्रिया को प्रबंधित करने के लिए व्यापक समाधान"
+  },
+  "contact": {
+    "getInTouch": "संपर्क में रहें",
+    "contactUs": "हमसे संपर्क करें",
+    "name": "नाम",
+    "email": "ईमेल",
+    "phone": "फोन",
+    "message": "संदेश",
+    "submit": "जमा करें",
+    "address": "पता",
+    "usAddress": "अमेरिकी कार्यालय",
+    "indiaAddress": "भारतीय कार्यालय"
+  },
+  "footer": {
+    "allRightsReserved": "सर्वाधिकार सुरक्षित",
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsOfService": "सेवा की शर्तें"
+  },
+  "home": {
+    "welcome": "सेलसॉफ्ट में आपका स्वागत है",
+    "heroTitle": "अभिनव प्रौद्योगिकी समाधान",
+    "heroSubtitle": "अत्याधुनिक प्रौद्योगिकी समाधानों के साथ व्यवसायों को सशक्त बनाना",
+    "learnMore": "और अधिक जानें",
+    "ourServices": "हमारी सेवाएँ",
+    "featuredProducts": "विशेष उत्पाद",
+    "clientTestimonials": "ग्राहक प्रशंसापत्र",
+    "latestNews": "नवीनतम समाचार"
+  },
+  "about": {
+    "aboutUs": "हमारे बारे में",
+    "ourMission": "हमारा मिशन",
+    "ourVision": "हमारी दृष्टि",
+    "ourValues": "हमारे मूल्य",
+    "ourTeam": "हमारी टीम",
+    "ourHistory": "हमारा इतिहास",
+    "missionStatement": "अभिनव प्रौद्योगिकी समाधान प्रदान करना जो व्यवसायों को अपनी पूरी क्षमता हासिल करने में सक्षम बनाते हैं।",
+    "visionStatement": "व्यापार परिवर्तन और सफलता को चलाने वाले प्रौद्योगिकी समाधानों के अग्रणी प्रदाता बनना।"
+  },
+  "timePulse": {
+    "objective": "उद्देश्य",
+    "coreFeatures": "मुख्य विशेषताएँ",
+    "timesheetManagement": "टाइमशीट संग्रह और प्रबंधन",
+    "invoiceGeneration": "इनवॉइस जनरेशन और विक्रेता सहयोग",
+    "dataReconciliation": "अंत-ग्राहक डेटा समाधान",
+    "tenantCustomization": "टेनेंट-विशिष्ट अनुकूलन",
+    "multiTenancy": "मल्टी-टेनेंसी",
+    "rolesAccess": "भूमिकाएँ और पहुँच नियंत्रण (RBAC)",
+    "sowManagement": "लचीला SOW प्रबंधन",
+    "timesheetSubmission": "टाइमशीट सबमिशन",
+    "invoiceAutomation": "इनवॉइस ऑटोमेशन",
+    "reconciliationEngine": "समाधान इंजन",
+    "notificationSystem": "अधिसूचना प्रणाली",
+    "reportingDashboards": "रिपोर्टिंग और डैशबोर्ड",
+    "elevateCapabilities": "सेलसॉफ्ट के टाइम पल्स के साथ अपनी स्टाफिंग प्रबंधन क्षमताओं को बढ़ाएं, आपका सटीक, स्केलेबल और अनुकूलन योग्य स्टाफिंग वर्कफ़्लो के लिए पूर्ण SaaS समाधान।"
+  },
+  "rts": {
+    "overview": "अवलोकन",
+    "keyFeatures": "प्रमुख विशेषताएँ",
+    "candidateManagement": "उम्मीदवार प्रबंधन",
+    "jobRequisitionTracking": "जॉब रिक्विजिशन ट्रैकिंग",
+    "analyticsReporting": "एनालिटिक्स और रिपोर्टिंग",
+    "interviewScheduling": "इंटरव्यू शेड्यूलिंग",
+    "clientPortal": "क्लाइंट पोर्टल",
+    "transformRecruitment": "सेलसॉफ्ट के RTS के साथ अपनी भर्ती प्रक्रिया को बदलें - आधुनिक स्टाफिंग और HR टीमों के लिए पूर्ण समाधान।"
+  },
+  "buttons": {
+    "requestDemo": "डेमो का अनुरोध करें",
+    "contactForDemo": "डेमो के लिए हमसे संपर्क करें",
+    "getStarted": "शुरू करें",
+    "learnMore": "और अधिक जानें",
+    "viewDetails": "विवरण देखें",
+    "readMore": "और पढ़ें"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "navigation": {
+    "home": "முகப்பு",
+    "about": "எங்களைப் பற்றி",
+    "products": "தயாரிப்புகள்",
+    "services": "சேவைகள்",
+    "useCases": "பயன்பாட்டு வழக்குகள்",
+    "contact": "தொடர்பு",
+    "leadership": "தலைமைத்துவம்",
+    "naicsSic": "NAICS/SIC",
+    "affiliations": "இணைப்புகள்"
+  },
+  "services": {
+    "aiSolutions": "AI தீர்வுகள்",
+    "dataEngineering": "தரவு பொறியியல்",
+    "cloudServices": "கிளவுட் சேவைகள்",
+    "cyberSecurity": "சைபர் பாதுகாப்பு",
+    "aiSolutionsHome": "AI தீர்வுகள் முகப்பு",
+    "aiDevelopment": "AI மேம்பாடு",
+    "processAutomation": "செயல்முறை தானியங்கி",
+    "faceRecognition": "முக அங்கீகாரம்",
+    "iotSolutions": "IoT தீர்வுகள்",
+    "deepLearning": "ஆழ்ந்த கற்றல்",
+    "nlpSolutions": "NLP தீர்வுகள்",
+    "dataEngineeringHome": "தரவு பொறியியல் முகப்பு",
+    "dataAnalytics": "தரவு பகுப்பாய்வு",
+    "dataPipeline": "தரவு பைப்லைன்",
+    "dataScience": "தரவு அறிவியல்",
+    "cloudData": "கிளவுட் தரவு",
+    "cloudServicesHome": "கிளவுட் சேவைகள் முகப்பு",
+    "awsCloud": "AWS கிளவுட்",
+    "azureCloud": "Azure கிளவுட்",
+    "gcpCloud": "GCP கிளவுட்",
+    "cyberSecurityHome": "சைபர் பாதுகாப்பு முகப்பு",
+    "socAsAService": "சேவையாக SOC",
+    "incidentResponse": "சம்பவ பதில்",
+    "penetratingTesting": "ஊடுருவல் சோதனை",
+    "securityAdvisory": "பாதுகாப்பு ஆலோசனை"
+  },
+  "products": {
+    "timePulse": "டைம் பல்ஸ்",
+    "rts": "RTS - ஆட்சேர்ப்பு கண்காணிப்பு அமைப்பு",
+    "timePulseDescription": "ஊழியர் மற்றும் வேலைவாய்ப்பு நிறுவனங்களுக்கான மேம்பட்ட பல-வாடகைதாரர் SaaS தீர்வு",
+    "rtsDescription": "உங்கள் முழு ஆட்சேர்ப்பு செயல்முறையை நிர்வகிப்பதற்கான விரிவான தீர்வு"
+  },
+  "contact": {
+    "getInTouch": "தொடர்பு கொள்ளுங்கள்",
+    "contactUs": "எங்களை தொடர்பு கொள்ள",
+    "name": "பெயர்",
+    "email": "மின்னஞ்சல்",
+    "phone": "தொலைபேசி",
+    "message": "செய்தி",
+    "submit": "சமர்ப்பிக்கவும்",
+    "address": "முகவரி",
+    "usAddress": "அமெரிக்க அலுவலகம்",
+    "indiaAddress": "இந்திய அலுவலகம்"
+  },
+  "footer": {
+    "allRightsReserved": "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை",
+    "privacyPolicy": "தனியுரிமைக் கொள்கை",
+    "termsOfService": "சேவை விதிமுறைகள்"
+  },
+  "home": {
+    "welcome": "செல்சாஃப்ட்க்கு வரவேற்கிறோம்",
+    "heroTitle": "புதுமையான தொழில்நுட்ப தீர்வுகள்",
+    "heroSubtitle": "நவீன தொழில்நுட்ப தீர்வுகளுடன் வணிகங்களை அதிகாரப்படுத்துதல்",
+    "learnMore": "மேலும் அறிய",
+    "ourServices": "எங்கள் சேவைகள்",
+    "featuredProducts": "சிறப்பு தயாரிப்புகள்",
+    "clientTestimonials": "வாடிக்கையாளர் சான்றுகள்",
+    "latestNews": "சமீபத்திய செய்திகள்"
+  },
+  "about": {
+    "aboutUs": "எங்களைப் பற்றி",
+    "ourMission": "எங்கள் நோக்கம்",
+    "ourVision": "எங்கள் தொலைநோக்கு",
+    "ourValues": "எங்கள் மதிப்புகள்",
+    "ourTeam": "எங்கள் குழு",
+    "ourHistory": "எங்கள் வரலாறு",
+    "missionStatement": "வணிகங்கள் தங்கள் முழு திறனையும் அடைய உதவும் புதுமையான தொழில்நுட்ப தீர்வுகளை வழங்குவது.",
+    "visionStatement": "வணிக மாற்றம் மற்றும் வெற்றியை இயக்கும் தொழில்நுட்ப தீர்வுகளின் முன்னணி வழங்குநராக இருப்பது."
+  },
+  "timePulse": {
+    "objective": "நோக்கம்",
+    "coreFeatures": "முக்கிய அம்சங்கள்",
+    "timesheetManagement": "நேரப்பதிவு சேகரிப்பு & மேலாண்மை",
+    "invoiceGeneration": "இன்வாய்ஸ் உருவாக்கம் & விற்பனையாளர் ஒத்துழைப்பு",
+    "dataReconciliation": "இறுதி-வாடிக்கையாளர் தரவு சரிசெய்தல்",
+    "tenantCustomization": "வாடகைதாரர்-குறிப்பிட்ட தனிப்பயனாக்கம்",
+    "multiTenancy": "பல-வாடகைதாரர்",
+    "rolesAccess": "பங்குகள் & அணுகல் கட்டுப்பாடு (RBAC)",
+    "sowManagement": "நெகிழ்வான SOW மேலாண்மை",
+    "timesheetSubmission": "நேரப்பதிவு சமர்ப்பிப்பு",
+    "invoiceAutomation": "இன்வாய்ஸ் தானியங்கி",
+    "reconciliationEngine": "சரிசெய்தல் இயந்திரம்",
+    "notificationSystem": "அறிவிப்பு அமைப்பு",
+    "reportingDashboards": "அறிக்கை & டாஷ்போர்டுகள்",
+    "elevateCapabilities": "செல்சாஃப்ட்டின் டைம் பல்ஸ் மூலம் உங்கள் ஊழியர் மேலாண்மை திறன்களை உயர்த்துங்கள், துல்லியமான, அளவிடக்கூடிய மற்றும் தனிப்பயனாக்கக்கூடிய ஊழியர் பணிப்பாய்வுகளுக்கான உங்கள் முழுமையான SaaS தீர்வு."
+  },
+  "rts": {
+    "overview": "கண்ணோட்டம்",
+    "keyFeatures": "முக்கிய அம்சங்கள்",
+    "candidateManagement": "வேட்பாளர் மேலாண்மை",
+    "jobRequisitionTracking": "வேலை கோரிக்கை கண்காணிப்பு",
+    "analyticsReporting": "பகுப்பாய்வு & அறிக்கை",
+    "interviewScheduling": "நேர்காணல் திட்டமிடல்",
+    "clientPortal": "வாடிக்கையாளர் போர்டல்",
+    "transformRecruitment": "செல்சாஃப்ட்டின் RTS மூலம் உங்கள் ஆட்சேர்ப்பு செயல்முறையை மாற்றுங்கள் - நவீன ஊழியர் மற்றும் HR குழுக்களுக்கான முழுமையான தீர்வு."
+  },
+  "buttons": {
+    "requestDemo": "டெமோ கோருங்கள்",
+    "contactForDemo": "டெமோவிற்கு எங்களை தொடர்பு கொள்ளுங்கள்",
+    "getStarted": "தொடங்குங்கள்",
+    "learnMore": "மேலும் அறிய",
+    "viewDetails": "விவரங்களைக் காண",
+    "readMore": "மேலும் படிக்க"
+  }
+}

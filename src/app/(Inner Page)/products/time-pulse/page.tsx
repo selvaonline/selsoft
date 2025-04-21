@@ -16,12 +16,15 @@ import {
   faBell, 
   faChartLine
 } from "@fortawesome/free-solid-svg-icons";
+import { useAppTranslation } from "@/utils/translation";
 
 const TimePulsePage = () => {
+  const { t } = useAppTranslation();
+  
   return (
     <main className="rv-14-body">
       <InnerLayout>
-        <BreadcrumbSection title="Time Pulse" />
+        <BreadcrumbSection title={t('products.timePulse')} />
         
         <section className="rv-inner-service rv-section-spacing">
           <div className="container">
@@ -29,9 +32,9 @@ const TimePulsePage = () => {
               <div className="col-lg-10">
                 <div className="rv-inner-service__content">
                   <div className="text-center mb-5">
-                    <h1 className="display-4 fw-bold mb-4">Time Pulse</h1>
+                    <h1 className="display-4 fw-bold mb-4">{t('products.timePulse')}</h1>
                     <p className="lead">
-                      An advanced multi-tenant SaaS solution designed specifically for staffing and employment firms
+                      {t('products.timePulseDescription')}
                     </p>
                   </div>
                   
@@ -40,25 +43,25 @@ const TimePulsePage = () => {
                     <div className="card-header bg-primary text-white">
                       <div className="d-flex align-items-center">
                         <FontAwesomeIcon icon={faBullseye} className="me-3 fs-4" />
-                        <h2 className="h3 mb-0">Objective</h2>
+                        <h2 className="h3 mb-0">{t('timePulse.objective')}</h2>
                       </div>
                     </div>
                     <div className="card-body">
                       <p className="lead mb-4">
-                        Selsoft proudly presents "Time Pulse", an advanced multi-tenant SaaS solution designed specifically for staffing and employment firms, empowering them to efficiently manage:
+                        {t('products.timePulseDescription')}
                       </p>
                       <ul className="list-group list-group-flush">
                         <li className="list-group-item py-3">
-                          <strong>Timesheet Collection & Management:</strong> Simplified, accurate, and streamlined time tracking.
+                          <strong>{t('timePulse.timesheetManagement')}:</strong> {t('timePulse.timesheetManagementDesc', { defaultValue: 'Simplified, accurate, and streamlined time tracking.' })}
                         </li>
                         <li className="list-group-item py-3">
-                          <strong>Invoice Generation & Vendor Collaboration:</strong> Seamless vendor interactions and automated invoicing.
+                          <strong>{t('timePulse.invoiceGeneration')}:</strong> {t('timePulse.invoiceGenerationDesc', { defaultValue: 'Seamless vendor interactions and automated invoicing.' })}
                         </li>
                         <li className="list-group-item py-3">
-                          <strong>End-Client Data Reconciliation:</strong> Robust tools for cross-validation of client-submitted data.
+                          <strong>{t('timePulse.dataReconciliation')}:</strong> {t('timePulse.dataReconciliationDesc', { defaultValue: 'Robust tools for cross-validation of client-submitted data.' })}
                         </li>
                         <li className="list-group-item py-3">
-                          <strong>Tenant-Specific Customization:</strong> Fully customizable workflows, data fields, and integrations tailored to individual tenant needs.
+                          <strong>{t('timePulse.tenantCustomization')}:</strong> {t('timePulse.tenantCustomizationDesc', { defaultValue: 'Fully customizable workflows, data fields, and integrations tailored to individual tenant needs.' })}
                         </li>
                       </ul>
                     </div>
@@ -69,7 +72,7 @@ const TimePulsePage = () => {
                     <div className="card-header bg-primary text-white">
                       <div className="d-flex align-items-center">
                         <FontAwesomeIcon icon={faRocket} className="me-3 fs-4" />
-                        <h2 className="h3 mb-0">Core Features</h2>
+                        <h2 className="h3 mb-0">{t('timePulse.coreFeatures')}</h2>
                       </div>
                     </div>
                     <div className="card-body">
@@ -80,9 +83,9 @@ const TimePulsePage = () => {
                               <div className="icon-wrapper me-3">
                                 <FontAwesomeIcon icon={faBuilding} className="text-primary fs-3" />
                               </div>
-                              <h3 className="h5 mb-0">Multi-Tenancy</h3>
+                              <h3 className="h5 mb-0">{t('timePulse.multiTenancy')}</h3>
                             </div>
-                            <p className="mb-0">Ensures robust tenant isolation via subdomains and secure database segregation (tenant-specific data).</p>
+                            <p className="mb-0">{t('timePulse.multiTenancyDesc', { defaultValue: 'Ensures robust tenant isolation via subdomains and secure database segregation (tenant-specific data).' })}</p>
                           </div>
                         </div>
                         
@@ -92,9 +95,9 @@ const TimePulsePage = () => {
                               <div className="icon-wrapper me-3">
                                 <FontAwesomeIcon icon={faUserShield} className="text-primary fs-3" />
                               </div>
-                              <h3 className="h5 mb-0">Roles & Access Control (RBAC)</h3>
+                              <h3 className="h5 mb-0">{t('timePulse.rolesAccess')}</h3>
                             </div>
-                            <p className="mb-0">Comprehensive role management including Super Admin, Employer Admin, Account Manager, Approver, Vendor, and Employee.</p>
+                            <p className="mb-0">{t('timePulse.rolesAccessDesc', { defaultValue: 'Comprehensive role management including Super Admin, Employer Admin, Account Manager, Approver, Vendor, and Employee.' })}</p>
                           </div>
                         </div>
                         
@@ -104,9 +107,9 @@ const TimePulsePage = () => {
                               <div className="icon-wrapper me-3">
                                 <FontAwesomeIcon icon={faFileContract} className="text-primary fs-3" />
                               </div>
-                              <h3 className="h5 mb-0">Flexible SOW Management</h3>
+                              <h3 className="h5 mb-0">{t('timePulse.sowManagement')}</h3>
                             </div>
-                            <p className="mb-0">Effectively handles multiple, overlapping Statements of Work with extensive customization options.</p>
+                            <p className="mb-0">{t('timePulse.sowManagementDesc', { defaultValue: 'Effectively handles multiple, overlapping Statements of Work with extensive customization options.' })}</p>
                           </div>
                         </div>
                         
@@ -116,9 +119,9 @@ const TimePulsePage = () => {
                               <div className="icon-wrapper me-3">
                                 <FontAwesomeIcon icon={faClipboardList} className="text-primary fs-3" />
                               </div>
-                              <h3 className="h5 mb-0">Timesheet Submission</h3>
+                              <h3 className="h5 mb-0">{t('timePulse.timesheetSubmission')}</h3>
                             </div>
-                            <p className="mb-0">Supports easy manual entries, streamlined uploads (Excel/PDF), and integration with SAP/Fieldglass.</p>
+                            <p className="mb-0">{t('timePulse.timesheetSubmissionDesc', { defaultValue: 'Supports easy manual entries, streamlined uploads (Excel/PDF), and integration with SAP/Fieldglass.' })}</p>
                           </div>
                         </div>
                         
@@ -128,9 +131,9 @@ const TimePulsePage = () => {
                               <div className="icon-wrapper me-3">
                                 <FontAwesomeIcon icon={faFileInvoiceDollar} className="text-primary fs-3" />
                               </div>
-                              <h3 className="h5 mb-0">Invoice Automation</h3>
+                              <h3 className="h5 mb-0">{t('timePulse.invoiceAutomation')}</h3>
                             </div>
-                            <p className="mb-0">Direct QuickBooks integration for seamless invoicing, supplemented by flexible manual upload capabilities.</p>
+                            <p className="mb-0">{t('timePulse.invoiceAutomationDesc', { defaultValue: 'Direct QuickBooks integration for seamless invoicing, supplemented by flexible manual upload capabilities.' })}</p>
                           </div>
                         </div>
                         
@@ -140,9 +143,9 @@ const TimePulsePage = () => {
                               <div className="icon-wrapper me-3">
                                 <FontAwesomeIcon icon={faBalanceScale} className="text-primary fs-3" />
                               </div>
-                              <h3 className="h5 mb-0">Reconciliation Engine</h3>
+                              <h3 className="h5 mb-0">{t('timePulse.reconciliationEngine')}</h3>
                             </div>
-                            <p className="mb-0">Intelligent matching of employee submissions, vendor invoices, and end-client reports to quickly identify and manage discrepancies.</p>
+                            <p className="mb-0">{t('timePulse.reconciliationEngineDesc', { defaultValue: 'Intelligent matching of employee submissions, vendor invoices, and end-client reports to quickly identify and manage discrepancies.' })}</p>
                           </div>
                         </div>
                         
@@ -152,9 +155,9 @@ const TimePulsePage = () => {
                               <div className="icon-wrapper me-3">
                                 <FontAwesomeIcon icon={faBell} className="text-primary fs-3" />
                               </div>
-                              <h3 className="h5 mb-0">Notification System</h3>
+                              <h3 className="h5 mb-0">{t('timePulse.notificationSystem')}</h3>
                             </div>
-                            <p className="mb-0">Automated reminders and custom alerts ensure timely submissions and informed stakeholders.</p>
+                            <p className="mb-0">{t('timePulse.notificationSystemDesc', { defaultValue: 'Automated reminders and custom alerts ensure timely submissions and informed stakeholders.' })}</p>
                           </div>
                         </div>
                         
@@ -164,9 +167,9 @@ const TimePulsePage = () => {
                               <div className="icon-wrapper me-3">
                                 <FontAwesomeIcon icon={faChartLine} className="text-primary fs-3" />
                               </div>
-                              <h3 className="h5 mb-0">Reporting & Dashboards</h3>
+                              <h3 className="h5 mb-0">{t('timePulse.reportingDashboards')}</h3>
                             </div>
-                            <p className="mb-0">Comprehensive, role-specific dashboards with customizable reporting options (CSV and PDF exports) and foundational business intelligence insights.</p>
+                            <p className="mb-0">{t('timePulse.reportingDashboardsDesc', { defaultValue: 'Comprehensive, role-specific dashboards with customizable reporting options (CSV and PDF exports) and foundational business intelligence insights.' })}</p>
                           </div>
                         </div>
                       </div>
@@ -175,11 +178,11 @@ const TimePulsePage = () => {
                   
                   <div className="text-center mt-5 mb-4">
                     <p className="lead fw-bold">
-                      Elevate your staffing management capabilities with Time Pulse by Selsoft, your complete SaaS solution for precise, scalable, and customizable staffing workflows.
+                      {t('timePulse.elevateCapabilities')}
                     </p>
                     <div className="mt-4">
                       <Link href="/contact" className="rv-btn rv-btn-primary">
-                        Contact Us for a Demo
+                        {t('buttons.contactForDemo')}
                       </Link>
                     </div>
                   </div>

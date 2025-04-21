@@ -39,7 +39,9 @@
   },
   "products": {
     "timePulse": "Time Pulse",
-    "rts": "RTS - Recruitment Tracking System"
+    "rts": "RTS - Recruitment Tracking System",
+    "timePulseDescription": "Advanced multi-tenant SaaS solution for staffing and employment firms",
+    "rtsDescription": "Comprehensive solution for managing your entire recruitment process"
   },
   "contact": {
     "getInTouch": "Get in Touch",
@@ -48,11 +50,69 @@
     "email": "Email",
     "phone": "Phone",
     "message": "Message",
-    "submit": "Submit"
+    "submit": "Submit",
+    "address": "Address",
+    "usAddress": "US Office",
+    "indiaAddress": "India Office"
   },
   "footer": {
     "allRightsReserved": "All Rights Reserved",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "home": {
+    "welcome": "Welcome to Selsoft",
+    "heroTitle": "Innovative Technology Solutions",
+    "heroSubtitle": "Empowering businesses with cutting-edge technology solutions",
+    "learnMore": "Learn More",
+    "ourServices": "Our Services",
+    "featuredProducts": "Featured Products",
+    "clientTestimonials": "Client Testimonials",
+    "latestNews": "Latest News"
+  },
+  "about": {
+    "aboutUs": "About Us",
+    "ourMission": "Our Mission",
+    "ourVision": "Our Vision",
+    "ourValues": "Our Values",
+    "ourTeam": "Our Team",
+    "ourHistory": "Our History",
+    "missionStatement": "To deliver innovative technology solutions that empower businesses to achieve their full potential.",
+    "visionStatement": "To be the leading provider of technology solutions that drive business transformation and success."
+  },
+  "timePulse": {
+    "objective": "Objective",
+    "coreFeatures": "Core Features",
+    "timesheetManagement": "Timesheet Collection & Management",
+    "invoiceGeneration": "Invoice Generation & Vendor Collaboration",
+    "dataReconciliation": "End-Client Data Reconciliation",
+    "tenantCustomization": "Tenant-Specific Customization",
+    "multiTenancy": "Multi-Tenancy",
+    "rolesAccess": "Roles & Access Control (RBAC)",
+    "sowManagement": "Flexible SOW Management",
+    "timesheetSubmission": "Timesheet Submission",
+    "invoiceAutomation": "Invoice Automation",
+    "reconciliationEngine": "Reconciliation Engine",
+    "notificationSystem": "Notification System",
+    "reportingDashboards": "Reporting & Dashboards",
+    "elevateCapabilities": "Elevate your staffing management capabilities with Time Pulse by Selsoft, your complete SaaS solution for precise, scalable, and customizable staffing workflows."
+  },
+  "rts": {
+    "overview": "Overview",
+    "keyFeatures": "Key Features",
+    "candidateManagement": "Candidate Management",
+    "jobRequisitionTracking": "Job Requisition Tracking",
+    "analyticsReporting": "Analytics & Reporting",
+    "interviewScheduling": "Interview Scheduling",
+    "clientPortal": "Client Portal",
+    "transformRecruitment": "Transform your recruitment process with RTS by Selsoft - the complete solution for modern staffing and HR teams."
+  },
+  "buttons": {
+    "requestDemo": "Request a Demo",
+    "contactForDemo": "Contact Us for a Demo",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "viewDetails": "View Details",
+    "readMore": "Read More"
   }
 }

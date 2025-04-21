@@ -1,0 +1,118 @@
+{
+  "navigation": {
+    "home": "హోమ్",
+    "about": "మా గురించి",
+    "products": "ఉత్పత్తులు",
+    "services": "సేవలు",
+    "useCases": "వినియోగ కేసులు",
+    "contact": "సంప్రదించండి",
+    "leadership": "నాయకత్వం",
+    "naicsSic": "NAICS/SIC",
+    "affiliations": "అనుబంధాలు"
+  },
+  "services": {
+    "aiSolutions": "AI పరిష్కారాలు",
+    "dataEngineering": "డేటా ఇంజనీరింగ్",
+    "cloudServices": "క్లౌడ్ సేవలు",
+    "cyberSecurity": "సైబర్ సెక్యూరిటీ",
+    "aiSolutionsHome": "AI పరిష్కారాలు హోమ్",
+    "aiDevelopment": "AI డెవలప్మెంట్",
+    "processAutomation": "ప్రాసెస్ ఆటోమేషన్",
+    "faceRecognition": "ముఖ గుర్తింపు",
+    "iotSolutions": "IoT పరిష్కారాలు",
+    "deepLearning": "డీప్ లెర్నింగ్",
+    "nlpSolutions": "NLP పరిష్కారాలు",
+    "dataEngineeringHome": "డేటా ఇంజనీరింగ్ హోమ్",
+    "dataAnalytics": "డేటా అనలిటిక్స్",
+    "dataPipeline": "డేటా పైప్‌లైన్",
+    "dataScience": "డేటా సైన్స్",
+    "cloudData": "క్లౌడ్ డేటా",
+    "cloudServicesHome": "క్లౌడ్ సేవలు హోమ్",
+    "awsCloud": "AWS క్లౌడ్",
+    "azureCloud": "Azure క్లౌడ్",
+    "gcpCloud": "GCP క్లౌడ్",
+    "cyberSecurityHome": "సైబర్ సెక్యూరిటీ హోమ్",
+    "socAsAService": "సేవగా SOC",
+    "incidentResponse": "ఘటన ప్రతిస్పందన",
+    "penetratingTesting": "పెనిట్రేషన్ టెస్టింగ్",
+    "securityAdvisory": "సెక్యూరిటీ సలహా"
+  },
+  "products": {
+    "timePulse": "టైమ్ పల్స్",
+    "rts": "RTS - రిక్రూట్మెంట్ ట్రాకింగ్ సిస్టమ్",
+    "timePulseDescription": "స్టాఫింగ్ మరియు ఉద్యోగ సంస్థలకు అధునాతన మల్టీ-టెనెంట్ SaaS పరిష్కారం",
+    "rtsDescription": "మీ మొత్తం రిక్రూట్మెంట్ ప్రక్రియను నిర్వహించడానికి సమగ్ర పరిష్కారం"
+  },
+  "contact": {
+    "getInTouch": "సంప్రదించండి",
+    "contactUs": "మమ్మల్ని సంప్రదించండి",
+    "name": "పేరు",
+    "email": "ఇమెయిల్",
+    "phone": "ఫోన్",
+    "message": "సందేశం",
+    "submit": "సమర్పించండి",
+    "address": "చిరునామా",
+    "usAddress": "యుఎస్ కార్యాలయం",
+    "indiaAddress": "భారత కార్యాలయం"
+  },
+  "footer": {
+    "allRightsReserved": "అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి",
+    "privacyPolicy": "గోప్యతా విధానం",
+    "termsOfService": "సేవా నిబంధనలు"
+  },
+  "home": {
+    "welcome": "సెల్‌సాఫ్ట్‌కి స్వాగతం",
+    "heroTitle": "వినూత్న సాంకేతిక పరిష్కారాలు",
+    "heroSubtitle": "అత్యాధునిక సాంకేతిక పరిష్కారాలతో వ్యాపారాలను శక్తివంతం చేయడం",
+    "learnMore": "మరింత తెలుసుకోండి",
+    "ourServices": "మా సేవలు",
+    "featuredProducts": "ఫీచర్డ్ ఉత్పత్తులు",
+    "clientTestimonials": "క్లయింట్ టెస్టిమోనియల్స్",
+    "latestNews": "తాజా వార్తలు"
+  },
+  "about": {
+    "aboutUs": "మా గురించి",
+    "ourMission": "మా మిషన్",
+    "ourVision": "మా విజన్",
+    "ourValues": "మా విలువలు",
+    "ourTeam": "మా బృందం",
+    "ourHistory": "మా చరిత్ర",
+    "missionStatement": "వ్యాపారాలు వారి పూర్తి సామర్థ్యాన్ని సాధించడానికి సహాయపడే వినూత్న సాంకేతిక పరిష్కారాలను అందించడం.",
+    "visionStatement": "వ్యాపార పరివర్తన మరియు విజయాన్ని నడిపించే సాంకేతిక పరిష్కారాల ప్రముఖ ప్రొవైడర్‌గా ఉండటం."
+  },
+  "timePulse": {
+    "objective": "లక్ష్యం",
+    "coreFeatures": "ప్రధాన ఫీచర్లు",
+    "timesheetManagement": "టైమ్‌షీట్ సేకరణ & నిర్వహణ",
+    "invoiceGeneration": "ఇన్‌వాయిస్ జనరేషన్ & వెండర్ కొలాబొరేషన్",
+    "dataReconciliation": "ఎండ్-క్లయింట్ డేటా రీకన్సిలియేషన్",
+    "tenantCustomization": "టెనెంట్-స్పెసిఫిక్ కస్టమైజేషన్",
+    "multiTenancy": "మల్టీ-టెనెన్సీ",
+    "rolesAccess": "రోల్స్ & యాక్సెస్ కంట్రోల్ (RBAC)",
+    "sowManagement": "ఫ్లెక్సిబుల్ SOW మేనేజ్‌మెంట్",
+    "timesheetSubmission": "టైమ్‌షీట్ సబ్మిషన్",
+    "invoiceAutomation": "ఇన్‌వాయిస్ ఆటోమేషన్",
+    "reconciliationEngine": "రీకన్సిలియేషన్ ఇంజిన్",
+    "notificationSystem": "నోటిఫికేషన్ సిస్టమ్",
+    "reportingDashboards": "రిపోర్టింగ్ & డాష్‌బోర్డ్‌లు",
+    "elevateCapabilities": "సెల్‌సాఫ్ట్ ద్వారా టైమ్ పల్స్‌తో మీ స్టాఫింగ్ నిర్వహణ సామర్థ్యాలను పెంచండి, మీ ఖచ్చితమైన, స్కేలబుల్ మరియు అనుకూలీకరించదగిన స్టాఫింగ్ వర్క్‌ఫ్లోల కోసం మీ పూర్తి SaaS పరిష్కారం."
+  },
+  "rts": {
+    "overview": "అవలోకనం",
+    "keyFeatures": "ప్రధాన ఫీచర్లు",
+    "candidateManagement": "అభ్యర్థి నిర్వహణ",
+    "jobRequisitionTracking": "జాబ్ రిక్విజిషన్ ట్రాకింగ్",
+    "analyticsReporting": "అనలిటిక్స్ & రిపోర్టింగ్",
+    "interviewScheduling": "ఇంటర్వ్యూ షెడ్యూలింగ్",
+    "clientPortal": "క్లయింట్ పోర్టల్",
+    "transformRecruitment": "సెల్‌సాఫ్ట్ ద్వారా RTS తో మీ రిక్రూట్మెంట్ ప్రక్రియను మార్చండి - ఆధునిక స్టాఫింగ్ మరియు HR బృందాల కోసం పూర్తి పరిష్కారం."
+  },
+  "buttons": {
+    "requestDemo": "డెమో కోసం అభ్యర్థించండి",
+    "contactForDemo": "డెమో కోసం మమ్మల్ని సంప్రదించండి",
+    "getStarted": "ప్రారంభించండి",
+    "learnMore": "మరింత తెలుసుకోండి",
+    "viewDetails": "వివరాలను చూడండి",
+    "readMore": "మరింత చదవండి"
+  }
+}
