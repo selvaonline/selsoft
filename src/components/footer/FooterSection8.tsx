@@ -69,7 +69,7 @@ const FooterSection8 = () => {
                         <Link href="/about">About Us</Link>
                       </li>
                       <li>
-                        <Link href="/blog">Blog</Link>
+                        <Link href="/use-cases">Use Cases</Link>
                       </li>
                       <li>
                         <Link href="/contact">Contact Us</Link>

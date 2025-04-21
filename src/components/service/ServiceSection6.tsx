@@ -8,17 +8,21 @@ const ServiceSection6 = () => {
       <DivAnimateYAxis className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="rv-3-section-heading rv-14-section__heading text-center mb-5">
-              <h6 className="rv-14-section__sub-title rv-text-anime text-primary">
-                OUR SERVICES
-              </h6>
-              <h2 className="rv-7-section__title rv-text-anime fw-bold mb-4" style={{ fontSize: "2.5rem" }}>
-                Comprehensive Technology Solutions
-              </h2>
-              <p className="rv-14-section__descr rv-text-anime mx-auto lead" style={{ maxWidth: "800px", lineHeight: "1.8" }}>
-                At Selsoft, we offer a wide range of innovative technology solutions designed to help businesses 
-                transform, innovate, and achieve their strategic goals. Explore our service offerings below.
-              </p>
+            <div className="service-header d-flex align-items-center mb-5">
+              <div className="service-title-sidebar text-center bg-primary text-white py-4 px-3 rounded-start" style={{ width: "150px" }}>
+                <h6 className="text-uppercase fw-bold mb-0" style={{ letterSpacing: "1px", fontSize: "0.9rem" }}>
+                  OUR<br />SERVICES
+                </h6>
+              </div>
+              <div className="service-title-content flex-grow-1 bg-white p-4 rounded-end shadow-sm">
+                <h2 className="fw-bold mb-3" style={{ fontSize: "2.2rem" }}>
+                  Comprehensive Technology Solutions
+                </h2>
+                <p className="lead mb-0" style={{ fontSize: "1.1rem", color: "#6c757d" }}>
+                  At Selsoft, we offer a wide range of innovative technology solutions designed to help businesses 
+                  transform, innovate, and achieve their strategic goals.
+                </p>
+              </div>
             </div>
 
             <div className="row g-4 mb-5">
