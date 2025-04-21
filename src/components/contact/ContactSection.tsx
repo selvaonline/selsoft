@@ -2,6 +2,7 @@ import React from "react";
 import ContactForm from "../form/ContactForm";
 import DivAnimateXAxis from "../utils/DivAnimateXAxis";
 import DivAnimateYAxis from "../utils/DivAnimateYAxis";
+import OfficeLocationsMap from "./OfficeLocationsMap";
 type Props = {
   innerPage?: boolean;
 };
@@ -73,6 +74,48 @@ const ContactSection = ({ innerPage }: Props) => {
                 </ul>
               </div>
             </div>
+
+            <div className="rv-inner-contact-info">
+              <div className="rv-inner-contact-info__heading">
+                <div className="rv-inner-contact-info__icon">
+                  <i className="fa-regular fa-location-dot"></i>
+                </div>
+
+                <h5 className="rv-inner-contact-info__title">
+                  Canada Office
+                </h5>
+              </div>
+
+              <div className="rv-inner-contact-info__bottom">
+                <ul className="rv-5-footer-timings">
+                  <li>
+                    <span>Selsoft Canada Inc. 80 Atlantic Ave, 4th Floor, Toronto, ON M6K 1X9</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="rv-inner-contact-info">
+              <div className="rv-inner-contact-info__heading">
+                <div className="rv-inner-contact-info__icon">
+                  <i className="fa-regular fa-location-dot"></i>
+                </div>
+
+                <h5 className="rv-inner-contact-info__title">
+                  India Office
+                </h5>
+              </div>
+
+              <div className="rv-inner-contact-info__bottom">
+                <ul className="rv-5-footer-timings">
+                  <li>
+                    <span>Prince info park, No.81B, Tower A, 3rd floor, 
+Ambattur Industrial Estate, Ambattur, Chennai-58
+India</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </DivAnimateYAxis>
         ) : (
           <h2 className="rv-2-section-title rv-text-anime">
@@ -96,13 +139,7 @@ const ContactSection = ({ innerPage }: Props) => {
           </DivAnimateXAxis>
 
           <DivAnimateXAxis className="col-xxl-4 col-lg-5" position={60}>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.9456613965823!2d-96.67483372426308!3d33.10272827352006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c177ba76022a9%3A0x82baa49d8d2dfca4!2s303%20S%20Jupiter%20Rd%20%23110%2C%20Allen%2C%20TX%2075002%2C%20USA!5e0!3m2!1sen!2sin!4v1716848203125!5m2!1sen!2sin"
-              allowFullScreen={true}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              style={{ height: "400px", width: "100%", border: 0 }}
-            ></iframe>
+            <OfficeLocationsMap />
           </DivAnimateXAxis>
         </div>
       </div>
