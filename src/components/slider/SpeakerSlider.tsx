@@ -108,7 +108,7 @@ const SpeakerSlider = () => {
                       src={item.videoSrc}
                       loop
                       muted={true}
-                      ref={(el) => (videoRefs.current[index] = el)}
+                      ref={(el) => { videoRefs.current[index] = el; }}
                     ></video>
                     <div className="rv-1-speaker__txt">
                       <h6 className="rv-1-speaker__role">{item.role}</h6>
