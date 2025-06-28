@@ -96,16 +96,7 @@ const AboutPage = () => {
                           </div>
                         </div>
                         
-                        <div className="col-md-6">
-                          <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <h3 className="h4 mb-1">Radha Sampathkumar</h3>
-                            <p className="text-primary mb-3">General Manager</p>
-                            <p className="mb-3">20+ years in IT delivery, program management across multiple domains. Certified PMP with Master's in Commerce.</p>
-                            <p className="small">
-                              <strong>Expertise:</strong> Banking, Insurance, Healthcare, Telecom, Manufacturing
-                            </p>
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
