@@ -16,6 +16,7 @@ import "../styles/service-buttons.css";
 import "../styles/mobile-menu-fix.css";
 import "../styles/header-fix.css";
 import "../styles/menu-arrow-fix.css";
+import "../styles/navbar-color-update.css";
 import {
   inter,
   mulish,

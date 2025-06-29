@@ -1,0 +1,101 @@
+/* Updated navigation bar styling with more vibrant colors */
+
+/* Main navigation background */
+.rv-14-header-bottom,
+.rv-7-header-bottom,
+.rv-1-header {
+  background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  width: 100% !important;
+  left: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  border-left: none !important;
+}
+
+/* Top bar styling */
+.rv-14-header-top,
+.rv-10-header-top,
+.rv-7-header-top {
+  background: #1a2980 !important;
+  width: 100% !important;
+  left: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  border-left: none !important;
+}
+
+/* Navigation text color */
+.rv-14-header-bottom .rv-14-header__nav > ul a,
+.rv-7-header__nav > ul a,
+.rv-1-header__nav > ul a {
+  color: #ffffff !important;
+  font-weight: 500 !important;
+}
+
+/* Navigation hover state */
+.rv-14-header-bottom .rv-14-header__nav > ul a:hover,
+.rv-7-header__nav > ul a:hover,
+.rv-1-header__nav > ul a:hover {
+  color: #f0f0f0 !important;
+}
+
+/* Dropdown menus */
+.rv-14-header .sub-menu,
+.rv-7-header .sub-menu,
+.rv-1-header .sub-menu {
+  background: rgba(26, 41, 128, 0.95) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Get in Touch button */
+.rv-3-def-btn {
+  background-color: #26d0ce !important;
+  border-color: #26d0ce !important;
+  color: #1a2980 !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+.rv-3-def-btn:hover {
+  background-color: #ffffff !important;
+  color: #1a2980 !important;
+}
+
+/* Mobile menu button */
+.rv-1-header-mobile-menu-btn {
+  background-color: #26d0ce !important;
+  border-color: #26d0ce !important;
+}
+
+/* Fixed header state */
+.rv-14-header-bottom.fixed,
+.rv-7-header-bottom.fixed,
+.rv-1-header.fixed {
+  background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%) !important;
+  width: 100% !important;
+  left: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  border-left: none !important;
+}
+
+/* Fix for the entire header container */
+.rv-14-header,
+.rv-7-header,
+.rv-1-header {
+  width: 100% !important;
+  left: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  border-left: none !important;
+}
+
+/* Fix for any container elements that might cause the white line */
+.container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-left: none !important;
+}
