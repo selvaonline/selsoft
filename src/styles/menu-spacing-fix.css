@@ -1,0 +1,68 @@
+/* Fix for squeezed menu items in the navigation */
+
+/* Ensure the navigation container has enough width */
+.rv-14-header__nav,
+.rv-7-header__nav,
+.rv-1-header__nav {
+  width: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-grow: 1 !important;
+}
+
+/* Ensure the navigation list has proper display */
+.rv-14-header__nav ul,
+.rv-7-header__nav ul,
+.rv-1-header__nav ul {
+  display: flex !important;
+  justify-content: space-evenly !important; /* Evenly distribute items */
+  width: 100% !important;
+  max-width: 1200px !important; /* Increased max width */
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* Ensure menu items don't wrap */
+.rv-14-header__nav ul li a,
+.rv-7-header__nav ul li a,
+.rv-1-header__nav ul li a,
+.rv-14-header__nav ul li .dropdown-btn,
+.rv-7-header__nav ul li .dropdown-btn,
+.rv-1-header__nav ul li .dropdown-btn {
+  white-space: nowrap !important;
+  padding: 30px 8px !important; /* Adjust vertical padding to maintain height, reduce horizontal padding */
+  font-size: 15px !important; /* Slightly reduce font size if needed */
+}
+
+/* Ensure the logo doesn't take too much space */
+.rv-14-header__logo,
+.rv-7-header__logo,
+.rv-1-header__logo {
+  margin-right: 20px !important;
+}
+
+/* Ensure the right side elements don't take too much space */
+.rv-14-header__right,
+.rv-7-header__right,
+.rv-1-header__right {
+  margin-left: 20px !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .rv-14-header__nav ul li,
+  .rv-7-header__nav ul li,
+  .rv-1-header__nav ul li {
+    margin: 0 8px !important; /* Reduce spacing on smaller screens */
+  }
+  
+  .rv-14-header__nav ul li a,
+  .rv-7-header__nav ul li a,
+  .rv-1-header__nav ul li a,
+  .rv-14-header__nav ul li .dropdown-btn,
+  .rv-7-header__nav ul li .dropdown-btn,
+  .rv-1-header__nav ul li .dropdown-btn {
+    padding: 30px 5px !important; /* Further reduce horizontal padding */
+    font-size: 14px !important; /* Further reduce font size */
+  }
+}

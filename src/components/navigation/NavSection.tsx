@@ -225,7 +225,7 @@ const NavSection = ({ style, logo }: Props) => {
         </li>
 
         <li>
-          <Navlink href="/contact">{t('navigation.contact')}</Navlink>
+          <Navlink href="/careers">{t('navigation.careers')}</Navlink>
         </li>
       </ul>
     </div>

@@ -19,6 +19,7 @@ import "../styles/menu-arrow-fix.css";
 import "../styles/mobile-nav-fix.css";
 import "../styles/navbar-color-update.css";
 import "../styles/submenu-auto-open-fix.css";
+import "../styles/menu-spacing-fix.css";
 import {
   inter,
   mulish,
