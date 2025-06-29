@@ -61,11 +61,11 @@ const NavSection = ({ style, logo }: Props) => {
             role="button"
             onClick={(e) => handleToggleDropdown("pages", e)}
           >
-            {t('navigation.about')}
+            {t('navigation.about')} <i className="fa-solid fa-chevron-down ms-1"></i>
           </a>
           <ul className="sub-menu">
             <li>
-              <Navlink href="/about">{t('navigation.leadership')}</Navlink>
+              <Navlink href="/about?tab=leadership">{t('navigation.leadership')}</Navlink>
             </li>
             <li>
               <Navlink href="/about?tab=naicsic">{t('navigation.naicsSic')}</Navlink>
@@ -82,7 +82,7 @@ const NavSection = ({ style, logo }: Props) => {
             role="button"
             onClick={(e) => handleToggleDropdown("products", e)}
           >
-            {t('navigation.products')}
+            {t('navigation.products')} <i className="fa-solid fa-chevron-down ms-1"></i>
           </a>
           <ul className="sub-menu">
             <li>
@@ -106,7 +106,7 @@ const NavSection = ({ style, logo }: Props) => {
             role="button"
             onClick={(e) => handleToggleDropdown("service", e)}
           >
-            {t('navigation.services')}
+            {t('navigation.services')} <i className="fa-solid fa-chevron-down ms-1"></i>
           </a>
           <ul className="sub-menu">
             <li className={dropdown.aiSolutions ? "rv-dropdown-active" : ""}>
@@ -115,7 +115,7 @@ const NavSection = ({ style, logo }: Props) => {
                 role="button"
                 onClick={(e) => handleToggleDropdown("aiSolutions", e)}
               >
-                {t('services.aiSolutions')}
+                {t('services.aiSolutions')} <i className="fa-solid fa-chevron-right ms-1"></i>
               </a>
               <ul className="sub-menu">
                 <li>
@@ -147,7 +147,7 @@ const NavSection = ({ style, logo }: Props) => {
                 role="button"
                 onClick={(e) => handleToggleDropdown("dataEngineering", e)}
               >
-                {t('services.dataEngineering')}
+                {t('services.dataEngineering')} <i className="fa-solid fa-chevron-right ms-1"></i>
               </a>
               <ul className="sub-menu">
                 <li>
@@ -173,7 +173,7 @@ const NavSection = ({ style, logo }: Props) => {
                 role="button"
                 onClick={(e) => handleToggleDropdown("cloudServices", e)}
               >
-                {t('services.cloudServices')}
+                {t('services.cloudServices')} <i className="fa-solid fa-chevron-right ms-1"></i>
               </a>
               <ul className="sub-menu">
                 <li>
@@ -196,7 +196,7 @@ const NavSection = ({ style, logo }: Props) => {
                 role="button"
                 onClick={(e) => handleToggleDropdown("cyberSecurity", e)}
               >
-                {t('services.cyberSecurity')}
+                {t('services.cyberSecurity')} <i className="fa-solid fa-chevron-right ms-1"></i>
               </a>
               <ul className="sub-menu cybersecurity-submenu">
                 <li>

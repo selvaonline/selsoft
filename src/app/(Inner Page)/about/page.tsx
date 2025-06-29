@@ -12,7 +12,7 @@ const AboutPage = () => {
   
   useEffect(() => {
     const tab = searchParams?.get("tab");
-    if (tab === "naicsic" || tab === "affiliations") {
+    if (tab === "leadership" || tab === "naicsic" || tab === "affiliations") {
       setActiveTab(tab);
     }
   }, [searchParams]);

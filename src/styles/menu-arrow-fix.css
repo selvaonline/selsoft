@@ -1,0 +1,30 @@
+/* Styling for dropdown menu arrows */
+.dropdown-btn .fa-chevron-down,
+.dropdown-btn .fa-chevron-right {
+  font-size: 0.75em;
+  transition: transform 0.3s ease;
+  opacity: 0.8;
+}
+
+/* Rotate arrow when dropdown is active */
+.rv-dropdown-active > .dropdown-btn .fa-chevron-down {
+  transform: rotate(180deg);
+}
+
+.rv-dropdown-active > .dropdown-btn .fa-chevron-right {
+  transform: rotate(90deg);
+}
+
+/* Make arrows more visible on hover */
+.dropdown-btn:hover .fa-chevron-down,
+.dropdown-btn:hover .fa-chevron-right {
+  opacity: 1;
+}
+
+/* Mobile specific styling */
+@media (max-width: 991px) {
+  .dropdown-btn .fa-chevron-right {
+    float: right;
+    margin-top: 5px;
+  }
+}

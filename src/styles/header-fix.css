@@ -1,0 +1,35 @@
+/* Fix for white text on white background in header */
+.rv-14-header-bottom {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.rv-14-header-top {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Fix for gap between header and body content */
+.rv-14-header {
+  position: relative !important;
+  margin-bottom: -1px !important;
+}
+
+.rv-14-header-bottom .rv-14-header__nav > ul a {
+  color: #ffffff !important;
+}
+
+.rv-14-header-bottom .rv-14-header__nav > ul a:hover {
+  color: #E64209 !important;
+}
+
+/* Fix for dropdown menus */
+.rv-14-header .sub-menu {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.rv-14-header .sub-menu a {
+  color: #ffffff !important;
+}
+
+.rv-14-header .sub-menu a:hover {
+  color: #E64209 !important;
+}
