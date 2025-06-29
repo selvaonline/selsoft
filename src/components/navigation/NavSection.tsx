@@ -23,6 +23,7 @@ type DropdownState = {
 
 const NavSection = ({ style, logo }: Props) => {
   const { t } = useAppTranslation();
+  // Initialize all dropdowns as closed
   const [dropdown, setDropdown] = useState<DropdownState>({
     home: false,
     pages: false,

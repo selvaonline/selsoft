@@ -1,0 +1,64 @@
+/* Fix for submenus opening automatically */
+
+/* Desktop: Only show submenus on hover or when explicitly opened */
+@media (min-width: 992px) {
+  /* Hide all submenus by default */
+  .rv-14-header__nav ul li ul.sub-menu,
+  .rv-7-header__nav ul li ul.sub-menu,
+  .rv-1-header__nav ul li ul.sub-menu {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transform: translateY(20px) !important;
+    transition: all 0.3s ease !important;
+  }
+
+  /* Only show submenu on hover */
+  .rv-14-header__nav ul li:hover > ul.sub-menu,
+  .rv-7-header__nav ul li:hover > ul.sub-menu,
+  .rv-1-header__nav ul li:hover > ul.sub-menu {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+  }
+}
+
+/* Mobile: Only show submenus when dropdown-active class is present */
+@media (max-width: 991px) {
+  .rv-14-header-nav__sidebar ul.sub-menu,
+  .rv-7-header-nav__sidebar ul.sub-menu,
+  .rv-1-header-nav__sidebar ul.sub-menu {
+    display: none !important;
+  }
+
+  .rv-14-header-nav__sidebar .rv-dropdown-active > ul.sub-menu,
+  .rv-7-header-nav__sidebar .rv-dropdown-active > ul.sub-menu,
+  .rv-1-header-nav__sidebar .rv-dropdown-active > ul.sub-menu {
+    display: block !important;
+  }
+}
+
+/* Override any automatic active state from current page */
+.rv-14-header__nav ul li.current-menu-ancestor > ul.sub-menu,
+.rv-7-header__nav ul li.current-menu-ancestor > ul.sub-menu,
+.rv-1-header__nav ul li.current-menu-ancestor > ul.sub-menu,
+.rv-14-header__nav ul li.current-menu-parent > ul.sub-menu,
+.rv-7-header__nav ul li.current-menu-parent > ul.sub-menu,
+.rv-1-header__nav ul li.current-menu-parent > ul.sub-menu {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+/* Only show when hovered, regardless of active state */
+.rv-14-header__nav ul li.current-menu-ancestor:hover > ul.sub-menu,
+.rv-7-header__nav ul li.current-menu-ancestor:hover > ul.sub-menu,
+.rv-1-header__nav ul li.current-menu-ancestor:hover > ul.sub-menu,
+.rv-14-header__nav ul li.current-menu-parent:hover > ul.sub-menu,
+.rv-7-header__nav ul li.current-menu-parent:hover > ul.sub-menu,
+.rv-1-header__nav ul li.current-menu-parent:hover > ul.sub-menu {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}

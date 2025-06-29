@@ -1,0 +1,114 @@
+/* Fix for blue highlight/stripe in mobile navigation */
+
+/* All mobile-specific styles wrapped in media query */
+@media (max-width: 991px) {  
+  /* Fix mobile sidebar layout and background */
+  .rv-14-header-nav__sidebar,
+  .rv-7-header-nav__sidebar,
+  .rv-1-header-nav__sidebar {
+    background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%) !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    padding: 20px !important;
+    overflow-y: auto !important;
+    height: 100vh !important;
+  }
+
+  /* Fix mobile navigation menu items */
+  .rv-14-header-nav__sidebar ul,
+  .rv-7-header-nav__sidebar ul,
+  .rv-1-header-nav__sidebar ul {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .rv-14-header-nav__sidebar li,
+  .rv-7-header-nav__sidebar li,
+  .rv-1-header-nav__sidebar li {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  /* Fix mobile dropdown buttons */
+  .rv-14-header-nav__sidebar .dropdown-btn,
+  .rv-7-header-nav__sidebar .dropdown-btn,
+  .rv-1-header-nav__sidebar .dropdown-btn {
+    width: 100% !important;
+    text-align: left !important;
+    padding: 12px 15px !important;
+    color: white !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Remove blue background from active items in mobile menu */
+  .rv-14-header-nav__sidebar .dropdown-btn.active,
+  .rv-7-header-nav__sidebar .dropdown-btn.active,
+  .rv-1-header-nav__sidebar .dropdown-btn.active,
+  .rv-14-header-nav__sidebar .dropdown-btn.rv-dropdown-active,
+  .rv-7-header-nav__sidebar .dropdown-btn.rv-dropdown-active,
+  .rv-1-header-nav__sidebar .dropdown-btn.rv-dropdown-active {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: #26d0ce !important; /* Use teal color for active text instead */
+  }
+
+  /* Remove blue background from hovered items */
+  .rv-14-header-nav__sidebar .dropdown-btn:hover,
+  .rv-7-header-nav__sidebar .dropdown-btn:hover,
+  .rv-1-header-nav__sidebar .dropdown-btn:hover {
+    background: rgba(255, 255, 255, 0.05) !important; /* Subtle hover effect */
+  }
+
+  /* Style for open submenu container */
+  .rv-14-header-nav__sidebar .sub-menu,
+  .rv-7-header-nav__sidebar .sub-menu,
+  .rv-1-header-nav__sidebar .sub-menu {
+    background: rgba(26, 41, 128, 0.3) !important; /* Slightly darker than parent menu */
+    border-left: 2px solid #26d0ce !important; /* Teal border for visual hierarchy */
+    margin-left: 10px !important;
+    width: calc(100% - 10px) !important;
+    padding: 5px 0 !important;
+  }
+
+  /* Fix any other blue highlights in the mobile menu */
+  .rv-14-header-nav__sidebar li.active > a,
+  .rv-7-header-nav__sidebar li.active > a,
+  .rv-1-header-nav__sidebar li.active > a {
+    background: transparent !important;
+    color: #26d0ce !important;
+  }
+
+  /* Fix mobile sidebar header */
+  .rv-14-header-nav__sidebar .rv-14-header-nav__sidebar-header,
+  .rv-7-header-nav__sidebar .rv-7-header-nav__sidebar-header,
+  .rv-1-header-nav__sidebar .rv-1-header-nav__sidebar-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 15px 0 !important;
+  }
+
+  /* Fix mobile sidebar close button */
+  .rv-14-mobile-menu-btn,
+  .rv-7-mobile-menu-btn,
+  .rv-1-header-mobile-menu-btn {
+    background: #26d0ce !important;
+    color: #1a2980 !important;
+    border: none !important;
+    padding: 8px 12px !important;
+    border-radius: 4px !important;
+  }
+
+  /* Fix OUR SERVICES box in sidebar */
+  .rv-14-header-nav__sidebar .our-services-box,
+  .rv-7-header-nav__sidebar .our-services-box,
+  .rv-1-header-nav__sidebar .our-services-box {
+    display: none !important; /* Hide this element as it's causing layout issues */
+  }
+}

@@ -23,8 +23,42 @@
 
 /* Mobile specific styling */
 @media (max-width: 991px) {
+  /* Position the chevron icons properly */
   .dropdown-btn .fa-chevron-right {
     float: right;
     margin-top: 5px;
+  }
+  
+  /* Hide default dropdown arrows in mobile view */
+  .dropdown-btn::after,
+  .dropdown-btn::before {
+    display: none !important;
+    content: none !important;
+  }
+  
+  /* Hide Bootstrap's default caret */
+  .caret,
+  .nav-link::after {
+    display: none !important;
+  }
+  
+  /* Fix for duplicate arrows in mobile menu */
+  .rv-1-header-nav__sidebar .dropdown-btn > .fa-chevron-down + .fa-chevron-down,
+  .rv-7-header-nav__sidebar .dropdown-btn > .fa-chevron-down + .fa-chevron-down,
+  .rv-14-header-nav__sidebar .dropdown-btn > .fa-chevron-down + .fa-chevron-down {
+    display: none !important;
+  }
+  
+  /* Remove any SVG arrows that might be added by the theme */
+  .dropdown-btn svg[class*="arrow"],
+  .dropdown-btn svg[class*="caret"],
+  .dropdown-btn svg[class*="chevron"] {
+    display: none !important;
+  }
+  
+  /* Ensure only our custom arrow is visible */
+  .dropdown-btn > i.fa-chevron-down,
+  .dropdown-btn > i.fa-chevron-right {
+    display: inline-block !important;
   }
 }
