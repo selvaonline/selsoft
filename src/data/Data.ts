@@ -948,6 +948,12 @@ const teamData2 = [
     subTitle: "Communications Officer",
     title: "Ava Hayes",
   },
+  {
+    id: 7,
+    img: "/assets/img/rv-9-member-2.jpg",
+    subTitle: "VP of Recruitment",
+    title: "Bakyalakshmi Sureshrajan",
+  },
 ];
 const teamData3 = [
   {

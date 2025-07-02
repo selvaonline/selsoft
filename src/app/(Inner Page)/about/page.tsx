@@ -82,17 +82,30 @@ const AboutPage = () => {
                         
                         <div className="col-md-4">
                           <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <h3 className="h4 mb-1">Behmen Sanjana</h3>
-                            <p className="text-primary mb-3">CFO</p>
-                            <p className="mb-3">15+ years developing software solutions, with experience in Telecommunications, Banking, and Logistics industries. Strong in global markets.</p>
+                            <h3 className="h4 mb-1">Uma Sivalingam</h3>
+                            <p className="text-primary mb-3">VP - Operations</p>
+                            <p className="mb-3">Strategic leadership in software development and managed services. Over a decade of IT experience with Master's in computer science.</p>
                           </div>
                         </div>
                         
                         <div className="col-md-4">
                           <div className="team-card p-4 text-center h-100 shadow-sm rounded">
-                            <h3 className="h4 mb-1">Uma Sivalingam</h3>
-                            <p className="text-primary mb-3">VP - Operations</p>
-                            <p className="mb-3">Strategic leadership in software development and managed services. Over a decade of IT experience with Master's in computer science.</p>
+                            <h3 className="h4 mb-1">Bakyalakshmi Sureshrajan</h3>
+                            <p className="text-primary mb-3">VP of Recruitment</p>
+                            <p className="mb-3">Visionary VP of Recruitment with deep expertise in strategic hiring, client relations, and talent delivery. Proven leader in scaling recruitment operations, driving team performance, and delivering top-tier talent solutions.</p>
+                            <div className="social-icons">
+                              <a href="https://www.linkedin.com/in/bakya-lakshmi-96493818/" target="_blank" rel="noopener noreferrer" className="me-2">
+                                <i className="fa-brands fa-linkedin-in"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div className="col-md-4">
+                          <div className="team-card p-4 text-center h-100 shadow-sm rounded">
+                            <h3 className="h4 mb-1">Behmen Sanjana</h3>
+                            <p className="text-primary mb-3">CFO</p>
+                            <p className="mb-3">15+ years developing software solutions, with experience in Telecommunications, Banking, and Logistics industries. Strong in global markets.</p>
                           </div>
                         </div>
                         
